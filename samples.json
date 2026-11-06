@@ -1,0 +1,194 @@
+[
+  {
+    "id": "michael_jackson",
+    "artist": "Michael Jackson",
+    "title": "Bad",
+    "video_id": "-DlMoJ2V6uk",
+    "excerpts": [
+      {
+        "start": 22,
+        "end": 42
+      }
+    ],
+    "samples": [
+      {
+        "audio": "audio/michael_jackson_1.mp3",
+        "prompt": "Late-1980s glossy pop-funk, 4/4, mid-tempo, one continuous densely packed wall-of-sound groove at flat loud density, no build-ups, no pads or synth washes. Machine-tight programmed drums the loudest layer, ahead of the voice: round four-on-the-floor kick, big gated-reverb snare cracking wide on 2 and 4 with a long tail, continuously busy sixteenth hi-hats with open-hat lifts, tom fills, tambourine, shaker, repeating cowbell plus a woodblock-like clav accent and light handclaps. Forward bright round synth bass pulsing eighth notes on the root with occasional octave pops; harmony moves through a few chord changes. A bright repeating multi-note melodic synth lead hook sits at the very top of the mix, with clipped clav accents and short brassy stabs answering in the gaps between phrases. Choked muted single-coil guitar stabs, clearly audible rhythm layer but not dominant. Thin breathy high male tenor, close and dry, short clipped chant syllables with clear rests, falsetto yelps, stacked chord-harmony backing vocals on the hook. Warm analog tape with faint hiss, glossy treble, compressed low end, big 80s reverb, wide stereo, short slap echo.",
+        "clap": 0.7999009315708158
+      },
+      {
+        "audio": "audio/michael_jackson_2.mp3",
+        "prompt": "Late-1980s pop-funk, 4/4, mid-tempo, one continuous densely packed groove, flat loud density, no build-ups, no sustained pads or washes. Programmed drum machine loud and dominant: round four-on-the-floor kick on every beat, wide gated-reverb snare cracking on beats 2 and 4 with a short punchy tail, continuously busy sixteenth hi-hats with offbeat open-hat lifts, tom fills, tambourine jingling on the backbeat, repeating cowbell and light handclaps. Forward bright round synth bass pulsing mostly on the root with occasional octave pops, doubled by a plucked electric bass for pluck and slides. Centered clean single-coil electric guitar chops choked muted stabs with audible gaps and offbeat syncopation; a short repetitive multi-note synth lead and brassy synth stabs answer between vocal phrases. High male tenor close and forward, bright slightly nasal, wet with room reverb and slap echo: short percussive chant syllables with clear rests between phrases, clipped held notes, tight unison doubles, no long sustained lines. Glossy treble-forward analog mix, warm full mids, compressed low end, wide stereo.",
+        "clap": 0.7798239812436611
+      }
+    ]
+  },
+  {
+    "id": "taylor_swift",
+    "artist": "Taylor Swift",
+    "title": "Welcome to New York",
+    "video_id": "AP3aieVtq00",
+    "excerpts": [
+      {
+        "start": 22,
+        "end": 42
+      }
+    ],
+    "samples": [
+      {
+        "audio": "audio/taylor_swift_1.mp3",
+        "prompt": "Polished mid-uptempo female-vocal pop, steady 115 BPM 4/4, bright major key with I–IV6 shimmer over a short two-chord loop; no moody minor tonality. Programmed drums from bar one: tight punchy kick on every beat, crisp layered clap-plus-snare on 2 and 4 with a short gated-reverb snap, rapid bright hi-hats, continuous tambourine/shaker tick, small crash lifts. Deep side-chained synth bass in a short pulse locked to the kick under wide shimmering pads that stay supportive rather than a thick wall; a glassy plucked-bell arpeggio and brief staccato synth stabs carry the hook nearly as loud as the voice. Clear bright female mezzo-soprano, warm chest tone, front and center, mostly dry with moderate reverb and a touch of delay: conversational rhythmic verses lifting into a full belted anthemic chorus, doubled unison and harmony stacks. Warm mid-forward midrange, sparkling highs, loud glossy compressed wide-stereo master; full from the first second, no long breakdown. Electronic only.",
+        "clap": 0.8255440371910848
+      },
+      {
+        "audio": "audio/taylor_swift_2.mp3",
+        "prompt": "Glossy 2010s-style radio pop with a light dance pulse, driving 4/4 around 118 BPM, bright major key with add-9/major-7 shimmer over a short looping chord cycle, full and loud from the first second with no breakdown, bass drop or drum stop. Programmed drums: steady four-on-the-floor kick, layered handclap-plus-snare accented on 2 and 4 with a short gated-reverb snap, unbroken tambourine/shaker ticking, very busy forward hi-hats, and a bright bell arpeggio. A moderate side-chained synth sub pumps under wide shimmering pads; the sparkling high end sits forward and nearly as loud as the voice. Clear, bright, slightly airy female lead with strong chest tone in a mid-high register: smooth sustained legato quarter-note pop phrasing with occasional offbeat accents and short clipped bursts for emphasis, doubled in unison and harmony-stacked, spacious reverb and delay throws. Loud, compressed, bright-topped wide-stereo master. No guitar, sax, piano or organic drums.",
+        "clap": 0.7951709808125036
+      }
+    ]
+  },
+  {
+    "id": "adele",
+    "artist": "Adele",
+    "title": "Hello",
+    "video_id": "yjo_aXygRDI",
+    "excerpts": [
+      {
+        "start": 22,
+        "end": 42
+      }
+    ],
+    "samples": [
+      {
+        "audio": "audio/adele_1.mp3",
+        "prompt": "Generate 2010s pop soul with a rich powerful female voice, intimate piano, restrained acoustic rhythm, swelling strings and backing vocals, and spacious dramatic ballad production.",
+        "clap": 0.8679744282253661
+      },
+      {
+        "audio": "audio/adele_2.mp3",
+        "prompt": "Slow, cinematic pop-soul ballad, about 66 BPM, minor key, steady 4/4. Warm resonant grand piano sits front and center, its left hand carrying the low end in long sustain-pedal chords alongside a deep double-bass; lush legato strings — low cello, violas, high violins — swell behind it as a wide sustained wash that thickens toward the peak. A plain, unhurried half-time kick and snare enters partway, soft and never fill-heavy; no shakers. Lead is a close-miked female mezzo-soprano, warm and slightly breathy in the verse with long sustained vowels, soulful vibrato and conversational phrasing that lingers at each line ending, opening into one full-voiced, aching, resonant belt at the climax. Layered close-harmony backing vocals appear only under the string swell. Deep hall reverb with a long tail, subtle vocal delay, wide stereo image, polished dynamic mastering. Avoid acoustic guitar, folk strumming, synth pads, electronic beats, and major-key brightness.",
+        "clap": 0.867378390925238
+      }
+    ]
+  },
+  {
+    "id": "green_day",
+    "artist": "Green Day",
+    "title": "Burnout",
+    "video_id": "elKgUQMY3PU",
+    "excerpts": [
+      {
+        "start": 22,
+        "end": 42
+      }
+    ],
+    "samples": [
+      {
+        "audio": "audio/green_day_1.mp3",
+        "prompt": "Generate fast 1990s pop punk with crunchy power-chord guitars, nasal melodic male vocals, active bass lines, compact drum grooves, and bright dry production.",
+        "clap": 0.778852764968813
+      },
+      {
+        "audio": "audio/green_day_2.mp3",
+        "prompt": "Generate fast 1990s pop punk with crunchy power-chord guitars, nasal melodic male vocals, active bass lines, compact drum grooves, and bright dry production.",
+        "clap": 0.7720256305818457
+      }
+    ]
+  },
+  {
+    "id": "billie_eilish",
+    "artist": "Billie Eilish",
+    "title": "bad guy",
+    "video_id": "ZD6rXLXZOEI",
+    "excerpts": [
+      {
+        "start": 2,
+        "end": 22
+      }
+    ],
+    "samples": [
+      {
+        "audio": "audio/billie_eilish_1.mp3",
+        "prompt": "Generate minimalist late-2010s alternative pop with whisper-close female vocals, deep sub bass, dry electronic percussion, unsettling sound design, abrupt dynamic contrasts, and intimate bedroom production.",
+        "clap": 0.7302825871327758
+      },
+      {
+        "audio": "audio/billie_eilish_2.mp3",
+        "prompt": "Generate minimalist late-2010s alternative pop with whisper-close female vocals, deep sub bass, dry electronic percussion, unsettling sound design, abrupt dynamic contrasts, and intimate bedroom production.",
+        "clap": 0.7297788477906174
+      }
+    ]
+  },
+  {
+    "id": "daft_punk",
+    "artist": "Daft Punk",
+    "title": "One More Time",
+    "video_id": "fa5IWHDbftI",
+    "excerpts": [
+      {
+        "start": 22,
+        "end": 42
+      }
+    ],
+    "samples": [
+      {
+        "audio": "audio/daft_punk_1.mp3",
+        "prompt": "125 BPM four-on-the-floor filtered disco-funk house, bright major key, one looping four-bar progression (tonic, subdominant, dominant, relative minor seventh) with a moving bassline; continuous club loop, filter sweeps only, no build, drop or verse-chorus. Loudest midrange layer: a continuous wide-stereo wah/low-pass-filtered funk rhythm-guitar and clavinet riff of tight muted 16th upstrokes, unbroken across the whole 30 seconds. Bright plucky arpeggio and short filtered chord stabs sit layered underneath on off-beat accents, warm wide pads furthest back, no supersaw big-room lead. Punchy compressed kick with a short tight sub tail and obvious side-chain ducking; crisp centred clap on 2 and 4; dense closed 16th hats, open off-beat accents, subtle tambourine and shaker. Clean subby side-chained synth bass, mostly root notes with occasional octave lifts. Only vocal: front-centre male mid-range tenor, heavily vocoded/talkboxed short syllable chant, doubled, short slap delay, looped every bar; no sung lead. Warm mid-forward, bright, glossy, loudly limited club master, drums centred, synths wide.",
+        "clap": 0.7642301254805177
+      },
+      {
+        "audio": "audio/daft_punk_2.mp3",
+        "prompt": "125 BPM four-on-the-floor filtered disco-funk house, bright major key, one looping four-bar progression (tonic, subdominant, dominant, relative minor seventh) with a moving bassline; continuous club loop, filter sweeps only, no build, drop or verse-chorus. Loudest midrange layer: a continuous wide-stereo wah/low-pass-filtered funk rhythm-guitar and clavinet riff of tight muted 16th upstrokes, unbroken across the whole 30 seconds. Bright plucky arpeggio and short filtered chord stabs sit layered underneath on off-beat accents, warm wide pads furthest back, no supersaw big-room lead. Punchy compressed kick with a short tight sub tail and obvious side-chain ducking; crisp centred clap on 2 and 4; dense closed 16th hats, open off-beat accents, subtle tambourine and shaker. Clean subby side-chained synth bass, mostly root notes with occasional octave lifts. Only vocal: front-centre male mid-range tenor, heavily vocoded/talkboxed short syllable chant, doubled, short slap delay, looped every bar; no sung lead. Warm mid-forward, bright, glossy, loudly limited club master, drums centred, synths wide.",
+        "clap": 0.7348717500485041
+      }
+    ]
+  },
+  {
+    "id": "eminem",
+    "artist": "Eminem",
+    "title": "Kill You",
+    "video_id": "D1I1x2pYMK0",
+    "excerpts": [
+      {
+        "start": 22,
+        "end": 42
+      }
+    ],
+    "samples": [
+      {
+        "audio": "audio/eminem_1.mp3",
+        "prompt": "Early-2000s hardcore hip hop with a boom-bap feel: mid-tempo head-nodding rap beat around 100 BPM in a dark minor key, hard straight 4/4 grid. Programmed drums up front — clipped punchy kick, crisp cracking snare hard on the backbeat, tight dry hi-hats with a few quick rolls. Sparse bass locked to the kick, short hard-hitting low notes. One short tense minor-key keyboard/synth loop repeats unchanged, thin and edgy, no lush chords, no warm pads. Male rap voice dead center and on top from the first bar: rapidly articulated clipped-consonant flow filling nearly every beat, snarling and confrontational, dry punch-in doubles and short shouted ad-libs, spoken rap only, no sung or crooned hook. Clean, loud, hard-compressed narrow production, drums and voice dominant, minimal reverb, hostile from start to finish.",
+        "clap": 0.8233720119214195
+      },
+      {
+        "audio": "audio/eminem_2.mp3",
+        "prompt": "Generate early-2000s hip hop with sharply articulated rapid male rap, dark keyboard loops, hard programmed drums, sparse bass, theatrical vocal layering, and clean confrontational production.",
+        "clap": 0.8094792317269928
+      }
+    ]
+  },
+  {
+    "id": "frank_sinatra",
+    "artist": "Frank Sinatra",
+    "title": "In the Wee Small Hours of the Morning",
+    "video_id": "j7Jfs9MY0hg",
+    "excerpts": [
+      {
+        "start": 22,
+        "end": 42
+      }
+    ],
+    "samples": [
+      {
+        "audio": "audio/frank_sinatra_1.mp3",
+        "prompt": "Very slow late-night jazz ballad, about 60 BPM in 4/4, half-time two-feel with loose rubato, the vocal landing slightly behind the beat. Opens with eight to ten seconds of solo piano: warm, round, slightly dark tone, sparse sustained seventh and ninth voicings with real silence between chords. One close-miked male baritone then croons low and soft — warm husky low-mid timbre, narrow stepwise range, gentle scoops into notes, soft consonants, breathy vowels, faint vibrato on falling phrase tails, then a single fuller, louder top note near the end. Long five-second phrases separated by two-to-three-second gaps where only piano and plucked walking upright bass play; bass low and centered on steady quarter notes, brushes reduced to a faint snare swirl, no stick hits, no fills, no solos. No guitar, saxophone, horns, strings, pads, organ, synth or electric bass. Dark blue-toned harmony, chromatic passing chords, unresolved cadence. Lo-fi mono-era capture: loud tape hiss, rolled-off dull highs, small room, narrow near-mono image, no wide stereo, no bright modern polish or loud compression.",
+        "clap": 0.7831669948023288
+      },
+      {
+        "audio": "audio/frank_sinatra_2.mp3",
+        "prompt": "Very slow, hushed late-night 1950s jazz ballad, locked near 60 BPM in 4/4 — never a medium or fast tempo. Loose two-feel with rubato, vocal slightly behind the beat; long five-second legato phrases split by two-to-three second gaps where only piano and bass play. Ten seconds of solo piano opens: warm, round, dark tone, low left hand, sparse sustained seventh and ninth voicings with real silence between chords. One close-miked male baritone then croons low and soft — warm husky low-mid, narrow stepwise lines, gentle scoops, breathy vowels, faint vibrato on falling tails, a single fuller top note near the end — dry, forward, never belted, not doubled. Prominent round plucked acoustic upright bass walking slow quarter notes, not electric bass. Brushes just a faint snare swirl; no drum kit, no backbeat, no cymbal wash. No guitar, saxophone, horns, strings, organ or synth. Melancholic minor harmony, chromatic passing chords, unresolved cadence. Narrow near-mono vintage tape capture, audible hiss, rolled-off highs, no wide clean modern polish.",
+        "clap": 0.7812493997972951
+      }
+    ]
+  }
+]

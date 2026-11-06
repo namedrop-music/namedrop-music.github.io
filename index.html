@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="description" content="NameDrop examines artist-name restrictions and training-data credit in music generation, with interactive results and audio examples.">
+  <meta name="author" content="Xirui Jiang, Junwei Deng, Luyang Zhang, Beibei Li, Chris Donahue, Jiaqi W. Ma">
+  <title>NameDrop: Examining Artist Mentions in Music AI</title>
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+  <link rel="stylesheet" href="assets/vendor/bulma.min.css">
+  <link rel="stylesheet" href="assets/vendor/nerfies.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="project.js" defer></script>
+  <script src="listening.js" defer></script>
+</head>
+<body>
+<section class="hero" id="top">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered"><div class="column has-text-centered">
+        <h1 class="title is-1 publication-title">NameDrop: Examining Artist Mentions in Music AI</h1>
+        <div class="is-size-5 publication-authors"><span class="author-block">Xirui Jiang<sup>1</sup></span>,
+<span class="author-block">Junwei Deng<sup>1</sup></span>,
+<span class="author-block">Luyang Zhang<sup>2</sup></span>,
+<span class="author-block">Beibei Li<sup>2</sup></span>,
+<span class="author-block">Chris Donahue<sup>2</sup></span>,
+<span class="author-block">Jiaqi W. Ma<sup>1</sup></span></div>
+        <div class="is-size-6 publication-authors affiliations"><span class="author-block"><sup>1</sup>University of Illinois at Urbana-Champaign</span><br><span class="author-block"><sup>2</sup>Carnegie Mellon University</span></div>
+        <div class="column has-text-centered publication-links">
+          <span class="link-block"><span class="button is-normal is-rounded is-dark paper-placeholder" aria-disabled="true" title="arXiv link coming soon">Paper · coming soon</span></span>
+          <span class="link-block"><a class="button is-normal is-rounded is-dark" href="#listening"><span>Audio examples</span></a></span>
+        </div>
+      </div></div>
+    </div>
+  </div>
+</section>
+<main class="container page-body">
+  <section class="section overview">
+    <div class="content"><p>Music generation platforms use artist names in prompts to restrict what users may generate. Similar rules could also determine which creators receive credit. These rules are simple to implement, but a name is only an indirect signal of the music a model can produce and the training data that contributed to it. NameDrop examines two questions: can artist-name restrictions be bypassed without using those names, and does assigning credit to the named artist reflect estimated training-data contributions?</p>
+    <p>On ACE-Step, name-free prompts recover much of the similarity achieved by named prompts. Our black-box search agent refines musical descriptions using audio similarity and feedback from an audio language model, and also produces accepted prompts for a commercial music model. In a separate retraining-based study, we estimate artists' contributions using data Shapley values. The named artist is the largest estimated contributor for only 54% of outputs and receives 18.5% of attribution-based credit on average. Together, these findings question the use of artist names alone as a basis for generation restrictions and creator credit.</p></div>
+    <figure><a href="assets/overview.svg" target="_blank" rel="noopener" aria-label="Open overview diagram at full size"><img src="assets/overview.svg" alt="A nominative restriction refuses or rewrites a prompt naming Pink Floyd. Nominative credit rewards the named artist, while the model is trained on multiple artists." width="1100" height="424"></a></figure>
+  </section>
+
+  <section class="section" id="rq1">
+    <h2 class="title is-3">RQ1. Artist-name restrictions</h2>
+    <div class="content"><p>Name-free rewrites recover 91% of the gap between generic and named prompts on ACE-Step. NameDrop goes further by searching for musical descriptions using an audio similarity score and feedback from an audio language model.</p></div>
+    <figure class="method-figure"><a href="assets/search-method.svg" target="_blank" rel="noopener" aria-label="Open search diagram at full size"><img src="assets/search-method.svg" alt="NameDrop's search loop connects a tree search, a language-model proposer, an identifier check, the music model, and CLAP scoring. An example shows a caption being refined." width="1100" height="619"></a></figure>
+
+    <h3 class="title is-4">Search results across 32 artists</h3>
+    <div class="content"><p>Compare searches with artist identifiers blocked or allowed under the same generation budget. The overview averages two target songs per artist, with 95% bootstrap intervals across artists. The small plots share a common CLAP scale. Select an artist to inspect both songs and the prompts found by the search.</p></div>
+    <div class="plot-toolbar">
+      <div class="plot-key"><span><i class="key-line blocked"></i>Names blocked</span><span><i class="key-line allowed"></i>Names allowed</span></div>
+      <label class="checkbox"><input id="baseline-toggle" type="checkbox"> Include fixed-prompt sampling</label>
+    </div>
+    <div id="mean-chart" class="plot"></div>
+    <div id="plot-tooltip" class="plot-tooltip" role="tooltip" hidden></div>
+    <div class="artist-toolbar">
+      <h3 class="title is-5">Individual artists</h3>
+      <div class="artist-filters"><input class="input" type="search" id="artist-search" placeholder="Find an artist" aria-label="Find an RQ1 artist"><div class="select"><select id="artist-sort" aria-label="Sort artists"><option value="name">Alphabetical</option><option value="gap">Largest allowed–blocked gap</option><option value="reverse">Largest blocked–allowed gap</option></select></div></div>
+    </div>
+    <div class="artist-scroll-frame" id="artist-scroll-frame"><div id="artist-scroll" class="artist-scroll" role="region" aria-label="Individual artist results" tabindex="0"><div id="artist-grid" class="artist-grid"></div></div></div>
+    <div id="artist-detail-panel"></div>
+
+    <section id="listening" class="listening-section">
+      <h3 class="title is-4">Audio examples from Lyria 3</h3>
+      <div class="content"><p>Each reference is paired with two Lyria 3 outputs selected for high CLAP similarity, generated without artist identifiers or quoted lyrics. All samples use the same original lyrics. Playback presents 20-second excerpts, while scores compare the full generated clips with the reference excerpt.</p></div>
+      <details class="shared-lyrics"><summary>Lyrics used in every generation</summary><div class="lyrics-grid"><div class="verse"><h5>Verse</h5><p>A quiet window catches morning light<br>The empty street is waking from the night<br>I fold a little note and leave it there<br>A simple thought is floating in the air</p></div><div class="verse"><h5>Chorus</h5><p>We find a rhythm in an ordinary day<br>And let the passing hours carry us away<br>One steady step and then another two<br>There is a little room for something new</p></div></div></details>
+      <div id="examples" aria-busy="true"></div>
+    </section>
+  </section>
+
+  <section class="section" id="rq2">
+    <h2 class="title is-3">RQ2. Who receives credit?</h2>
+    <div class="content"><p>We fine-tune Stable Audio 3 small on 1,117 tracks by 50 artists, then estimate artist-level Shapley values for 200 outputs using 927 fine-tuned models. The named artist ranks first for <strong>54%</strong> of outputs and receives <strong>18.5%</strong> of attribution-based credit on average, compared with 100% under a name-only rule.</p>
+    <p>Credit shares are proportional to positive estimated Shapley values. Each output carries one unit of credit.</p></div>
+    <h3 class="title is-4">Total credit across 200 outputs</h3>
+    <div class="content"><p>A name-only rule gives every artist four units, one for each output naming them. Attribution-based credit also accounts for their contributions to outputs naming other artists.</p></div>
+    <div class="plot-key credit-key"><span><i class="key-square own"></i>From outputs naming this artist</span><span><i class="key-square other"></i>From outputs naming other artists</span><span><i class="key-line name-only"></i>Name-only credit: 4</span></div>
+    <div id="credit-chart" class="credit-overview"></div>
+    <h3 class="title is-4 matrix-heading">Where each output's credit goes</h3>
+    <div class="content"><p>Rows identify the artist named in the prompt. Columns identify the contributing artist. Each row averages four generated outputs. Click an artist to expand those four outputs, or expand several artists to compare them. Orange outlines mark the artist named in the prompt.</p></div>
+    <details class="matrix-panel" id="matrix-panel" open>
+    <summary>Explore the 50-artist credit matrix</summary>
+    <div class="matrix-content">
+    <div class="matrix-toolbar"><input class="input" type="search" id="matrix-search" placeholder="Find a named artist" aria-label="Find a named artist"><div class="select"><select id="matrix-sort" aria-label="Sort named artists"><option value="name">Alphabetical</option><option value="share">Lowest credit for the named artist</option><option value="share-desc">Highest credit for the named artist</option></select></div><button class="button" id="expand-all" type="button">Expand all outputs</button></div>
+    <div class="matrix-key"><span>Attribution-based credit</span><div class="scale"><div class="scale-gradient"></div><div class="scale-ticks"><span>0%</span><span>10%</span><span>20%</span><span>30%</span><span>40%</span><span>≥50%</span></div></div></div>
+    <div id="credit-matrix" class="matrix-scroll" tabindex="0" aria-label="Interactive credit matrix"></div>
+    <div id="matrix-tooltip" class="matrix-tooltip" hidden></div>
+    </div>
+    </details>
+  </section>
+
+  <section class="section" id="citation">
+    <h2 class="title is-4">BibTeX</h2><button class="button is-small copy-citation" id="copy-citation" type="button">Copy</button>
+    <pre id="bibtex">@misc{jiang2026namedrop,
+  title={NameDrop: Examining Artist Mentions in Music AI},
+  author={Xirui Jiang and Junwei Deng and Luyang Zhang and
+          Beibei Li and Chris Donahue and Jiaqi W. Ma},
+  year={2026}
+}</pre>
+  </section>
+</main>
+<footer class="footer"><div class="container is-max-desktop content"><p>This website is adapted from <a href="https://nerfies.github.io/">Nerfies</a> and licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</p></div></footer>
+<div id="load-error" role="alert" hidden></div>
+<noscript><p>Enable JavaScript to explore the results and play the audio examples.</p></noscript>
+</body>
+</html>

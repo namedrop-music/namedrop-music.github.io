@@ -112,7 +112,7 @@ function addReference(container, example, excerpt, index) {
             }
           },
           onError: event => unavailable(event.data),
-          onAutoplayBlocked: () => { status.textContent = "Press play in the YouTube player to start the reference."; },
+          onAutoplayBlocked: () => { link.textContent = "Press play above or open on YouTube ↗"; },
         },
       });
     } catch {

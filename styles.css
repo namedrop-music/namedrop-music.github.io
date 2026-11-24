@@ -128,13 +128,13 @@ pre { font-size: 13px; }
 .listening-section > .title, .example h4, .song-title, .comparison h5, .reference-excerpt { text-align: center; }
 .comparison {
   display: grid;
-  grid-template-columns: 280px minmax(620px, 1fr);
+  grid-template-columns: 280px minmax(680px, 1fr);
   align-items: center;
   gap: 16px;
   overflow-x: auto;
   padding-bottom: 5px;
 }
-.models { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; }
+.models { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; }
 .reference-excerpt { display: grid; grid-template-rows: 202px auto; }
 .reference, .generated { min-width: 0; }
 .comparison h5 { font-size: 13px; font-weight: 600; margin: 0 0 12px; }
@@ -154,7 +154,23 @@ audio { display: block; width: 100%; height: 40px; }
 .sample details { margin-top: 11px; }
 .sample summary { cursor: pointer; font-size: 12px; width: fit-content; margin-inline: auto; }
 .prompt { margin: 12px 0 0; font-size: 13px; line-height: 1.7; overflow-wrap: anywhere; }
-.score { font-size: 12px; margin: 8px 0 0; }
+.models h5 { margin-bottom: 3px; white-space: nowrap; }
+.models h5::before {
+  content: "";
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  margin-right: 5px;
+  vertical-align: 1px;
+  background: var(--model-color);
+}
+.models [data-model="Lyria 3"] { --model-color: #416da1; }
+.models [data-model="ElevenLabs Music"] { --model-color: #926135; }
+.models [data-model="MiniMax Music 3"] { --model-color: #397c70; }
+.models [data-model="Suno"] { --model-color: #84619a; }
+.score { text-align: center; font-size: 12px; color: #555; margin: 0 0 9px; }
+.score strong { color: #272727; font-size: 16px; font-weight: 600; font-variant-numeric: tabular-nums; }
 @media(min-width:761px) and (max-width:1023px) { .artist-grid { grid-template-columns: repeat(3,minmax(0,1fr)); } }
 @media(max-width:1023px) { .matrix-scroll { overflow-x: auto; } }
 @media(max-width:760px) {

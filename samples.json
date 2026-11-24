@@ -1,5 +1,67 @@
 [
   {
+    "id": "billie_eilish",
+    "artist": "Billie Eilish",
+    "title": "bad guy",
+    "video_id": "ZD6rXLXZOEI",
+    "excerpts": [
+      {
+        "start": 2,
+        "end": 22
+      }
+    ],
+    "samples": [
+      {
+        "audio": "audio/billie_eilish_1.mp3",
+        "prompt": "Generate minimalist late-2010s alternative pop with whisper-close female vocals, deep sub bass, dry electronic percussion, unsettling sound design, abrupt dynamic contrasts, and intimate bedroom production.",
+        "clap": 0.7302825871327758
+      },
+      {
+        "audio": "audio/billie_eilish_2.mp3",
+        "prompt": "Generate minimalist late-2010s alternative pop with whisper-close female vocals, deep sub bass, dry electronic percussion, unsettling sound design, abrupt dynamic contrasts, and intimate bedroom production.",
+        "clap": 0.7297788477906174
+      }
+    ],
+    "additional_models": {
+      "ElevenLabs Music": [
+        {
+          "audio": "audio/elevenlabs/billie_eilish_n0002_s1.mp3",
+          "prompt": "Generate sparse, dark, lo-fi alternative trap-pop with a slow half-time groove: a deep sliding 808-style sub bass dominating the low end, tight dry punchy kick, crisp snapped snare and clap accents on the third beat, and rapid soft hi-hat rolls filling the gaps. Female mid-range vocal, breathy and whisper-close, delivered as half-spoken melodic rap, lightly auto-tuned and doubled into stacked layers with short reverb and slap delay. Above the beat, one simple repetitive thin detuned synth-pad loop drifting in reverb with faint ambient textures, soft tape hiss and gentle compression grit. Narrow, mostly centered mix at low-to-mid volume, claustrophobic intimate bedroom production, no bright modern sheen; brooding, eerie and hypnotic throughout.",
+          "clap": 0.6719939708709717
+        },
+        {
+          "audio": "audio/elevenlabs/billie_eilish_n0003_s1.mp3",
+          "prompt": "Generate sparse, dark, lo-fi cloud-rap / alternative trap-pop at a slow half-time 92 bpm in E minor. Deep resonant sliding 808 sub bass dominates the low end under a staccato plucked low synth figure; tight dry punchy kick on the downbeats, crisp snapped snare plus clap accent on the third beat, rapid soft hi-hat rolls and stuttered 16th fills in the gaps. One thin, slightly detuned DARK synth-pad loop (no bright airy pad) repeats hypnotically and drifts in long reverb with faint reversed ambient swells. Female lead in a low-alto register, whispered, half-spoken melodic rap very close to the mic and forward in the mix, lightly auto-tuned, doubled and stacked into subtle low harmonies, saturated with slap delay and long reverb tails. Deliberately lo-fi and gritty: soft tape hiss, vinyl crackle dust, gentle bus compression, narrow mostly-centered near-mono image, low-to-mid overall volume, claustrophobic bedroom production with no modern digital sheen or wide stereo sparkle. Bridge thins the texture to voice, pad and sub only, then the drums snap back; brooding, eerie, hypnotic, detached mood, steady minimal loop with no big drop.",
+          "clap": 0.6493542790412903
+        }
+      ],
+      "MiniMax Music 3": [
+        {
+          "audio": "audio/minimax/billie_eilish_n0018_s2.mp3",
+          "prompt": "Dark minimalist trap-pop / sparse hip-hop beat, minor key, slow creeping half-time 92 BPM: menacing, swaggering, deadpan. One hypnotic loop repeats unchanged, no drops or breakdowns, no risers. Deep static 808 sub bass on one sustained pitch front and center, punchy kick landing with it on downbeats, tight dry snare/clap cracking the backbeat with no reverb, continuous bright crisp quantized 16th hi-hats with occasional stuttered triplet rolls running under the voice; drums hard, dry, aggressive. Sparse stark texture: faint thin low synth and one repeating two-note mid-low filtered, slightly detuned toy-key motif audible behind the bass; no guitars, piano, strings or lush pads. Female lead dead-center and forward: mid-range chest voice, breathy yet clear, near-monotone, almost bored deadpan rap rhythm, clipped one-or-two-syllable phrases riding the hats, no sung chorus hook, faint low distorted double, light pitch-correction sheen, short delay and modest reverb, real gaps between phrases. Clean polished contemporary hi-fi mix, no tape hiss or lo-fi muffling: dark low-mid-heavy tone, thick centered low end, hats and hook wide, loud and heavily compressed, static menace throughout.",
+          "clap": 0.7641462087631226
+        },
+        {
+          "audio": "audio/minimax/billie_eilish_n0001_s2.mp3",
+          "prompt": "Generate dark trap-pop at a slow 92 BPM in a minor key: sparse, hypnotic groove built on a deep sustained 808 sub bass, punchy kick, tight dry snare/clap on the backbeat, and fast stuttered hi-hat rolls with triplet flams. Underneath, a brooding low synth pad and one haunting high bell-like synth melody acting as the main hook. Female vocal mid-range and forward in the mix: breathy but clear, rhythmic near-spoken cadence with clipped phrasing, light pitch-correction sheen, minimal reverb and short delay, small doubled ad-libs, lots of silence between lines. Dry, loud, heavily compressed modern mix, bass centered and powerful, crisp high end, static tension with no big drops or breakdowns, ominous and understated.",
+          "clap": 0.7513545751571655
+        }
+      ],
+      "Suno": [
+        {
+          "audio": "audio/suno/billie_eilish_n0022_s4.mp3",
+          "prompt": "Dark minimal alternative pop, all programmed \u2014 no guitar, piano or live drums. Straight mechanical 4/4 grid, one static looping bar, steady loudness, no build-ups, no drops into silence. Drums: dense continuous sizzling 16th-note hi-hat pulse, crisp dry clap on 2 and 4 clearly louder than the kick, soft low muffled kick on straight downbeats, no fills. Low end: deep round sub bass is the loudest, most dominant element, one held pitch as a static dark drone lightly sidechained to pump under each kick; harmony carried by a moderate synth pad chord bed, no melodic lead riff. Female lead front and center, single-tracked: airy breathy mid-to-high register, melodic with real pitch movement, short clipped two-to-four-syllable phrases, natural not autotuned, close-mic'd with a faint short reverb tail, no doubles, no harmonies, never belted. Warm slightly muted mix, gently rolled-off highs.",
+          "clap": 0.8141375780105591
+        },
+        {
+          "audio": "audio/suno/billie_eilish_n0020_s4.mp3",
+          "prompt": "Dark minimal alternative pop, all programmed \u2014 no guitar, piano or live drums. Straight mechanical 4/4 grid, one static looping bar, steady even loudness, no build-ups, no drops into silence. Drums: continuous ticking 16th-note hi-hat, crisp dry clap on 2 and 4 louder than the kick, soft low muffled kick on straight downbeats, no fills. Low end: one deep round 808 sub bass on a single sustained pitch, a static dark drone lightly sidechained to pump under each kick; harmony implied by bass alone, no melodic lead riff. Female lead front and center, single-tracked: airy breathy mid-to-high register, quietly melodic with real pitch movement, short clipped two-to-four-syllable phrases with clear pauses, natural not autotuned, dry close-mic'd with a faint short reverb tail, no doubles, no harmonies, never belted. Warm slightly muted mix, gently rolled-off highs.",
+          "clap": 0.8090821504592896
+        }
+      ]
+    }
+  },
+  {
     "id": "michael_jackson",
     "artist": "Michael Jackson",
     "title": "Bad",
@@ -243,68 +305,6 @@
           "audio": "audio/suno/green_day_n0027_s4.mp3",
           "prompt": "Fast, frantic raw 1990s pop punk / skate punk garage tape session: cold open on a crash into the full band riff, no count-in, relentless eighth-note downstroke wall, vocals from the downbeat, constant high intensity, abrupt ringing full-band stop. Two thin buzzy mid-heavy distorted guitars hammer one repeating three-chord power-chord riff with palm-muted chugging and a short higher melodic single-note hook between vocal phrases. Bright picky overdriven bass with round low-mid weight on root eighths; loud forward cracking snare on a straight two-and-four backbeat, kick with real thump, rapid sizzly hi-hats. Bright thin trebly mid-forward mix, compressed, mild tape grit, no glossy mastering; vocals clearly above the guitars. Lead: high whiny snotty youthful nasal male tenor singing a catchy tuneful clipped rapid-fire melody, single-tracked, dry and close, no harmonies or gang shouts.",
           "clap": 0.7582859992980957
-        }
-      ]
-    }
-  },
-  {
-    "id": "billie_eilish",
-    "artist": "Billie Eilish",
-    "title": "bad guy",
-    "video_id": "ZD6rXLXZOEI",
-    "excerpts": [
-      {
-        "start": 2,
-        "end": 22
-      }
-    ],
-    "samples": [
-      {
-        "audio": "audio/billie_eilish_1.mp3",
-        "prompt": "Generate minimalist late-2010s alternative pop with whisper-close female vocals, deep sub bass, dry electronic percussion, unsettling sound design, abrupt dynamic contrasts, and intimate bedroom production.",
-        "clap": 0.7302825871327758
-      },
-      {
-        "audio": "audio/billie_eilish_2.mp3",
-        "prompt": "Generate minimalist late-2010s alternative pop with whisper-close female vocals, deep sub bass, dry electronic percussion, unsettling sound design, abrupt dynamic contrasts, and intimate bedroom production.",
-        "clap": 0.7297788477906174
-      }
-    ],
-    "additional_models": {
-      "ElevenLabs Music": [
-        {
-          "audio": "audio/elevenlabs/billie_eilish_n0002_s1.mp3",
-          "prompt": "Generate sparse, dark, lo-fi alternative trap-pop with a slow half-time groove: a deep sliding 808-style sub bass dominating the low end, tight dry punchy kick, crisp snapped snare and clap accents on the third beat, and rapid soft hi-hat rolls filling the gaps. Female mid-range vocal, breathy and whisper-close, delivered as half-spoken melodic rap, lightly auto-tuned and doubled into stacked layers with short reverb and slap delay. Above the beat, one simple repetitive thin detuned synth-pad loop drifting in reverb with faint ambient textures, soft tape hiss and gentle compression grit. Narrow, mostly centered mix at low-to-mid volume, claustrophobic intimate bedroom production, no bright modern sheen; brooding, eerie and hypnotic throughout.",
-          "clap": 0.6719939708709717
-        },
-        {
-          "audio": "audio/elevenlabs/billie_eilish_n0003_s1.mp3",
-          "prompt": "Generate sparse, dark, lo-fi cloud-rap / alternative trap-pop at a slow half-time 92 bpm in E minor. Deep resonant sliding 808 sub bass dominates the low end under a staccato plucked low synth figure; tight dry punchy kick on the downbeats, crisp snapped snare plus clap accent on the third beat, rapid soft hi-hat rolls and stuttered 16th fills in the gaps. One thin, slightly detuned DARK synth-pad loop (no bright airy pad) repeats hypnotically and drifts in long reverb with faint reversed ambient swells. Female lead in a low-alto register, whispered, half-spoken melodic rap very close to the mic and forward in the mix, lightly auto-tuned, doubled and stacked into subtle low harmonies, saturated with slap delay and long reverb tails. Deliberately lo-fi and gritty: soft tape hiss, vinyl crackle dust, gentle bus compression, narrow mostly-centered near-mono image, low-to-mid overall volume, claustrophobic bedroom production with no modern digital sheen or wide stereo sparkle. Bridge thins the texture to voice, pad and sub only, then the drums snap back; brooding, eerie, hypnotic, detached mood, steady minimal loop with no big drop.",
-          "clap": 0.6493542790412903
-        }
-      ],
-      "MiniMax Music 3": [
-        {
-          "audio": "audio/minimax/billie_eilish_n0018_s2.mp3",
-          "prompt": "Dark minimalist trap-pop / sparse hip-hop beat, minor key, slow creeping half-time 92 BPM: menacing, swaggering, deadpan. One hypnotic loop repeats unchanged, no drops or breakdowns, no risers. Deep static 808 sub bass on one sustained pitch front and center, punchy kick landing with it on downbeats, tight dry snare/clap cracking the backbeat with no reverb, continuous bright crisp quantized 16th hi-hats with occasional stuttered triplet rolls running under the voice; drums hard, dry, aggressive. Sparse stark texture: faint thin low synth and one repeating two-note mid-low filtered, slightly detuned toy-key motif audible behind the bass; no guitars, piano, strings or lush pads. Female lead dead-center and forward: mid-range chest voice, breathy yet clear, near-monotone, almost bored deadpan rap rhythm, clipped one-or-two-syllable phrases riding the hats, no sung chorus hook, faint low distorted double, light pitch-correction sheen, short delay and modest reverb, real gaps between phrases. Clean polished contemporary hi-fi mix, no tape hiss or lo-fi muffling: dark low-mid-heavy tone, thick centered low end, hats and hook wide, loud and heavily compressed, static menace throughout.",
-          "clap": 0.7641462087631226
-        },
-        {
-          "audio": "audio/minimax/billie_eilish_n0001_s2.mp3",
-          "prompt": "Generate dark trap-pop at a slow 92 BPM in a minor key: sparse, hypnotic groove built on a deep sustained 808 sub bass, punchy kick, tight dry snare/clap on the backbeat, and fast stuttered hi-hat rolls with triplet flams. Underneath, a brooding low synth pad and one haunting high bell-like synth melody acting as the main hook. Female vocal mid-range and forward in the mix: breathy but clear, rhythmic near-spoken cadence with clipped phrasing, light pitch-correction sheen, minimal reverb and short delay, small doubled ad-libs, lots of silence between lines. Dry, loud, heavily compressed modern mix, bass centered and powerful, crisp high end, static tension with no big drops or breakdowns, ominous and understated.",
-          "clap": 0.7513545751571655
-        }
-      ],
-      "Suno": [
-        {
-          "audio": "audio/suno/billie_eilish_n0022_s4.mp3",
-          "prompt": "Dark minimal alternative pop, all programmed \u2014 no guitar, piano or live drums. Straight mechanical 4/4 grid, one static looping bar, steady loudness, no build-ups, no drops into silence. Drums: dense continuous sizzling 16th-note hi-hat pulse, crisp dry clap on 2 and 4 clearly louder than the kick, soft low muffled kick on straight downbeats, no fills. Low end: deep round sub bass is the loudest, most dominant element, one held pitch as a static dark drone lightly sidechained to pump under each kick; harmony carried by a moderate synth pad chord bed, no melodic lead riff. Female lead front and center, single-tracked: airy breathy mid-to-high register, melodic with real pitch movement, short clipped two-to-four-syllable phrases, natural not autotuned, close-mic'd with a faint short reverb tail, no doubles, no harmonies, never belted. Warm slightly muted mix, gently rolled-off highs.",
-          "clap": 0.8141375780105591
-        },
-        {
-          "audio": "audio/suno/billie_eilish_n0020_s4.mp3",
-          "prompt": "Dark minimal alternative pop, all programmed \u2014 no guitar, piano or live drums. Straight mechanical 4/4 grid, one static looping bar, steady even loudness, no build-ups, no drops into silence. Drums: continuous ticking 16th-note hi-hat, crisp dry clap on 2 and 4 louder than the kick, soft low muffled kick on straight downbeats, no fills. Low end: one deep round 808 sub bass on a single sustained pitch, a static dark drone lightly sidechained to pump under each kick; harmony implied by bass alone, no melodic lead riff. Female lead front and center, single-tracked: airy breathy mid-to-high register, quietly melodic with real pitch movement, short clipped two-to-four-syllable phrases with clear pauses, natural not autotuned, dry close-mic'd with a faint short reverb tail, no doubles, no harmonies, never belted. Warm slightly muted mix, gently rolled-off highs.",
-          "clap": 0.8090821504592896
         }
       ]
     }

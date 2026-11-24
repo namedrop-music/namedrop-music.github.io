@@ -44,7 +44,7 @@ function addReference(container, example, excerpt, index) {
   button.setAttribute("aria-label", `Play ${example.artist}, ${example.title}, ${timeLabel(excerpt.start)} to ${timeLabel(excerpt.end)}`);
   const range = document.createElement("span");
   range.className = "reference-range";
-  range.textContent = `${timeLabel(excerpt.start)}–${timeLabel(excerpt.end)} · 20 seconds`;
+  range.textContent = `${timeLabel(excerpt.start)}–${timeLabel(excerpt.end)}`;
   const placeholder = document.createElement("div");
   placeholder.className = "reference-placeholder";
   placeholder.append(button, range);
@@ -121,32 +121,41 @@ function addReference(container, example, excerpt, index) {
   }, { once: true });
 }
 
-function modelColumn(artist, model, samples) {
-  const column = document.createElement("div");
+const modelLabels = {
+  "Lyria 3": "Google Lyria 3",
+  "ElevenLabs Music": "ElevenLabs Music v2.5",
+  "MiniMax Music 3": "MiniMax Music 3",
+  "Suno": "Suno v6",
+};
+
+function modelColumn(artist, model, sample) {
+  const column = document.createElement("li");
   column.className = "generated";
   const heading = document.createElement("h5");
-  heading.textContent = model;
+  heading.dataset.model = model;
+  heading.textContent = modelLabels[model] ?? model;
   column.append(heading);
-  const sample = samples.reduce((best, next) => next.clap > best.clap ? next : best);
   const block = document.createElement("div");
   block.className = "sample";
   const audio = document.createElement("audio");
   audio.controls = true;
   audio.preload = "none";
   audio.src = sample.audio;
-  audio.setAttribute("aria-label", `${artist}, ${model}, highest CLAP sample`);
+  audio.setAttribute("aria-label", `${artist}, ${heading.textContent}, highest CLAP sample`);
   audio.addEventListener("play", () => stopOthers(audio));
   const details = document.createElement("details");
   const summary = document.createElement("summary");
-  summary.textContent = "Musical description and score";
+  summary.textContent = "Musical description";
   const prompt = document.createElement("p");
   prompt.className = "prompt";
   prompt.textContent = sample.prompt;
   const score = document.createElement("p");
   score.className = "score";
-  score.textContent = `CLAP similarity: ${sample.clap.toFixed(3)}`;
-  details.append(summary, prompt, score);
-  block.append(audio, details);
+  const value = document.createElement("strong");
+  value.textContent = sample.clap.toFixed(3);
+  score.append("CLAP ", value);
+  details.append(summary, prompt);
+  block.append(score, audio, details);
   column.append(block);
   return column;
 }
@@ -159,15 +168,20 @@ function addExample(example) {
     <h4></h4><p class="song-title"></p>
     <div class="comparison">
       <div class="reference"><h5>Reference recording</h5><div class="reference-links"></div></div>
-      <div class="models"></div>
+      <ol class="models" aria-label="Model examples ranked by CLAP similarity"></ol>
     </div>`;
   section.querySelector("h4").textContent = example.artist;
   section.querySelector(".song-title").textContent = example.title;
   example.excerpts.forEach((excerpt, index) => addReference(section.querySelector(".reference-links"), example, excerpt, index));
   const grid = section.querySelector(".models");
   const models = { "Lyria 3": example.samples, ...example.additional_models };
-  for (const [model, samples] of Object.entries(models)) {
-    grid.append(modelColumn(example.artist, model, samples));
+  const ranked = Object.entries(models).map(([model, samples]) => ({
+    model,
+    sample: samples.reduce((best, next) => next.clap > best.clap ? next : best),
+  }));
+  ranked.sort((a, b) => b.sample.clap - a.sample.clap);
+  for (const { model, sample } of ranked) {
+    grid.append(modelColumn(example.artist, model, sample));
   }
   examples.append(section);
 }

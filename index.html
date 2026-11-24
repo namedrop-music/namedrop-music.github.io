@@ -64,7 +64,7 @@
 
     <section id="listening" class="listening-section">
       <h3 class="title is-4">Audio examples</h3>
-      <div class="content"><p>For each reference, we show the example with the highest CLAP similarity from each model. The generation prompts omitted artist identifiers and quoted lyrics. All samples use the same original lyrics. Playback presents 20-second excerpts, while scores compare up to 30 seconds of generated audio with the reference excerpt.</p></div>
+      <div class="content"><p>For each song, the reference recording is on the left. The models follow in order of CLAP similarity, highest first. For ElevenLabs, MiniMax, and Suno, we show the highest-scoring clip from 128 generations per song. For Lyria 3, we show the higher-scoring of the two original listening examples. The generation prompts omitted artist identifiers and quoted lyrics. All samples use the same original lyrics. Playback presents 20-second excerpts, while scores compare up to 30 seconds of generated audio with the reference excerpt.</p></div>
       <details class="shared-lyrics"><summary>Lyrics used in every generation</summary><div class="lyrics-grid"><div class="verse"><h5>Verse</h5><p>A quiet window catches morning light<br>The empty street is waking from the night<br>I fold a little note and leave it there<br>A simple thought is floating in the air</p></div><div class="verse"><h5>Chorus</h5><p>We find a rhythm in an ordinary day<br>And let the passing hours carry us away<br>One steady step and then another two<br>There is a little room for something new</p></div></div></details>
       <div id="examples" aria-busy="true"></div>
     </section>

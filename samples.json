@@ -21,7 +21,45 @@
         "prompt": "Late-1980s pop-funk, 4/4, mid-tempo, one continuous densely packed groove, flat loud density, no build-ups, no sustained pads or washes. Programmed drum machine loud and dominant: round four-on-the-floor kick on every beat, wide gated-reverb snare cracking on beats 2 and 4 with a short punchy tail, continuously busy sixteenth hi-hats with offbeat open-hat lifts, tom fills, tambourine jingling on the backbeat, repeating cowbell and light handclaps. Forward bright round synth bass pulsing mostly on the root with occasional octave pops, doubled by a plucked electric bass for pluck and slides. Centered clean single-coil electric guitar chops choked muted stabs with audible gaps and offbeat syncopation; a short repetitive multi-note synth lead and brassy synth stabs answer between vocal phrases. High male tenor close and forward, bright slightly nasal, wet with room reverb and slap echo: short percussive chant syllables with clear rests between phrases, clipped held notes, tight unison doubles, no long sustained lines. Glossy treble-forward analog mix, warm full mids, compressed low end, wide stereo.",
         "clap": 0.7798239812436611
       }
-    ]
+    ],
+    "additional_models": {
+      "ElevenLabs Music": [
+        {
+          "audio": "audio/elevenlabs/michael_jackson_n0021_s2.mp3",
+          "prompt": "Mid-tempo late-1980s glossy pop-funk dance track, sparse and unbroken: deep punchy four-on-the-floor kick every beat, crisp gated-reverb snare cracking on 2 and 4, bright 16th-note hi-hats, tambourine and handclap accents; no cowbell, no fills, no breakdowns. Under the voice only three elements: a smooth round synth bass with soft attack on simple supportive root notes locked to the kick, forward and loud in the low end; one clean dry single-coil funk guitar in a thin bright high register playing the main riff-hook as short syncopated muted chord stabs with rests between hits, no distortion, no wah, no chorus, present throughout, never doubling the vocal; plus a few short punchy midrange synth stabs as accents \u2014 no sustained pads, no Rhodes or electric piano, no horns, no synth lead. Lead vocal is a single close-mic'd dry centered male mid chest tenor, smooth, soulful, slightly breathy, legato and continuous, no rasp, no falsetto, no shouted ad-libs, singing one short catchy repeated hook, answered only by very soft low wordless ooh/aah. Bright crisp compressed wide-stereo late-1980s digital mix. Very short groove intro, then straight into the hook.",
+          "clap": 0.7640013098716736
+        },
+        {
+          "audio": "audio/elevenlabs/michael_jackson_n0012_s3.mp3",
+          "prompt": "Mid-tempo late-1980s glossy pop-funk dance groove: programmed drum machine with a deep punchy kick, crisp gated-reverb snare backbeat on 2 and 4, bright 16th-note hi-hats, clearly audible tambourine, handclaps and a subtle cowbell. A clean bright single-coil funk electric guitar carries the main riff-hook in short muted chord stabs and chinks, as loud as the bass, no distortion and no wah. A thick percussive funk bass doubles a simple round synth-bass root line over a repeating minor-seventh vamp, with punchy bright synth stabs in the midrange. Lead vocal is a smooth, confident, slightly gritty male mid chest tenor, no falsetto, legato and clear, close-mic'd dry and upfront with subtle slapback delay, sitting ahead of the drums and guitar, repeating one short catchy hook with brief ad-lib yelps between lines, answered by tight unison male harmonies and soft wordless ooh/aah pads. Glossy, punchy, bright, wide-stereo late-1980s digital production, dense and compressed with crisp highs and clear separation. Opens with a two-second synth-stab and bass groove intro; one continuous high-energy danceable groove, no breakdowns, no ballads.",
+          "clap": 0.7579075694084167
+        }
+      ],
+      "MiniMax Music 3": [
+        {
+          "audio": "audio/minimax/michael_jackson_n0031_s4.mp3",
+          "prompt": "Late-1980s disco-funk / synth-funk dance-pop club track, 4/4, 116 BPM, A minor: urgent, driving, glossy, warm and bass-heavy, one continuous looped groove \u2014 no verse-chorus, no breakdown, drums never drop out, brief synth-and-drum intro. Programmed drum machine: deep boomy 80s kick on every quarter note, bright tight acoustic-style snare cracking hard on 2 and 4 with short decay, no fills, busy 16th-note hi-hats only \u2014 no tambourine or shaker. Warm dominant heavy low end: one simple repeating syncopated round analog synth bass locked to the kick. Midrange is synths and drums only, no electric guitar, no real horns: a continuous bright higher-register synth lead riff carries the hook while louder hard bright off-beat synth stabs punch over it; no pads, no chimes. Lead male tenor, mid chest register, smooth soulful, narrow repetitive melody, dry close-miked, centered, loudest element: connected legato syllables tight on the beat, no falsetto, no shouts, nearly the whole excerpt. Male group chants short tight harmony answers in call-and-response on the hook. Punchy compressed glossy stereo, warm rounded bottom, bright top, minimal vocal reverb.",
+          "clap": 0.7093778252601624
+        },
+        {
+          "audio": "audio/minimax/michael_jackson_n0006_s3.mp3",
+          "prompt": "Driving mid-to-late-1980s dance-pop / freestyle club track in 4/4, groove-first and percussion-forward. Programmed drum machine only: deep punchy four-on-the-floor kick, cracking gated-reverb snare with short snare fills and a brief drum-machine break, busy constant 16th-note hi-hats plus shaker, tambourine and handclaps packing the groove with urgent propulsive momentum. Prominent syncopated rounded analog synth bass with octave leaps locked to the kick. Bright repetitive synth lead hook and short rhythmic synth stabs doing the work of horns (no brass section), shimmering high string pads and glassy chimes; only sparse clean-toned funk guitar chops, never dominant. Lead male tenor in a smooth low-to-mid chest register, forward in the mix, singing short hook phrases with instrumental gaps between them, rhythmic and confident with a hint of grit, no falsetto shrieking. Layered male harmony backing vocals in call-and-response thicken each hook. Wide glossy stereo production, punchy compressed rhythm section, bright top-end sheen, moderate reverb and a touch of slap delay on the voice.",
+          "clap": 0.7078704833984375
+        }
+      ],
+      "Suno": [
+        {
+          "audio": "audio/suno/michael_jackson_n0007_s4.mp3",
+          "prompt": "Glossy mid-to-late-1980s funk-disco dance-pop in steady 4/4. Four-on-the-floor kick, snare cracking on 2 and 4, tight closed 16th hi-hats, prominent off-beat handclaps and tambourine, live-sounding kit. Round finger-played electric bass sustains the downbeat with syncopated off-beat pushes, no slap or buzzy synth bass. A bright synth lead carries the catchy melodic hook over synth-brass backbeat stabs and lush string pads; clean funk guitar stabs stay sparse, no distorted power chords. Smooth, clean, bright male tenor in the mid-to-upper register, sung melodically with rhythmic phrasing, percussive syllables, ad-libs and shouts, entering right after a half-second intro stab. Tight layered harmonies with call-and-response on the repeated hook. Dense constant dance-floor energy, no breakdown. Wide glossy stereo mix, centered bass and drums, bright mid-forward punchy master.",
+          "clap": 0.7806503772735596
+        },
+        {
+          "audio": "audio/suno/michael_jackson_n0017_s4.mp3",
+          "prompt": "Glossy late-1980s pop-funk dance-disco, steady 4/4, bright mid-forward punchy master. Strict four-on-the-floor kick; loud crisp snare cracking on 2 and 4 with tight gated snap; busy closed 16th hi-hats; off-beat handclaps and tambourine. Round punchy finger-played electric bass in the low-mid, short downbeat notes with syncopated off-beat pushes, no slap, no synth bass. Syncopated off-beat clean funk guitar chicken-scratch 16th stabs, no wah. Bright analog synth lead carries a short catchy repeated-note hook over punchy synth-brass stabs and string pads. Smooth clean bright male tenor, mid-to-upper register, fully sung, rhythmic phrasing, percussive clipped syllables, ad-libs and shouts. Short hook repeated three times with short chanted group answers, not doubled harmony. Vocal up-front from bar one, constant intensity, no breakdown. Wide glossy dry punchy stereo.",
+          "clap": 0.7610870003700256
+        }
+      ]
+    }
   },
   {
     "id": "taylor_swift",
@@ -37,7 +75,7 @@
     "samples": [
       {
         "audio": "audio/taylor_swift_1.mp3",
-        "prompt": "Polished mid-uptempo female-vocal pop, steady 115 BPM 4/4, bright major key with I–IV6 shimmer over a short two-chord loop; no moody minor tonality. Programmed drums from bar one: tight punchy kick on every beat, crisp layered clap-plus-snare on 2 and 4 with a short gated-reverb snap, rapid bright hi-hats, continuous tambourine/shaker tick, small crash lifts. Deep side-chained synth bass in a short pulse locked to the kick under wide shimmering pads that stay supportive rather than a thick wall; a glassy plucked-bell arpeggio and brief staccato synth stabs carry the hook nearly as loud as the voice. Clear bright female mezzo-soprano, warm chest tone, front and center, mostly dry with moderate reverb and a touch of delay: conversational rhythmic verses lifting into a full belted anthemic chorus, doubled unison and harmony stacks. Warm mid-forward midrange, sparkling highs, loud glossy compressed wide-stereo master; full from the first second, no long breakdown. Electronic only.",
+        "prompt": "Polished mid-uptempo female-vocal pop, steady 115 BPM 4/4, bright major key with I\u2013IV6 shimmer over a short two-chord loop; no moody minor tonality. Programmed drums from bar one: tight punchy kick on every beat, crisp layered clap-plus-snare on 2 and 4 with a short gated-reverb snap, rapid bright hi-hats, continuous tambourine/shaker tick, small crash lifts. Deep side-chained synth bass in a short pulse locked to the kick under wide shimmering pads that stay supportive rather than a thick wall; a glassy plucked-bell arpeggio and brief staccato synth stabs carry the hook nearly as loud as the voice. Clear bright female mezzo-soprano, warm chest tone, front and center, mostly dry with moderate reverb and a touch of delay: conversational rhythmic verses lifting into a full belted anthemic chorus, doubled unison and harmony stacks. Warm mid-forward midrange, sparkling highs, loud glossy compressed wide-stereo master; full from the first second, no long breakdown. Electronic only.",
         "clap": 0.8255440371910848
       },
       {
@@ -45,7 +83,45 @@
         "prompt": "Glossy 2010s-style radio pop with a light dance pulse, driving 4/4 around 118 BPM, bright major key with add-9/major-7 shimmer over a short looping chord cycle, full and loud from the first second with no breakdown, bass drop or drum stop. Programmed drums: steady four-on-the-floor kick, layered handclap-plus-snare accented on 2 and 4 with a short gated-reverb snap, unbroken tambourine/shaker ticking, very busy forward hi-hats, and a bright bell arpeggio. A moderate side-chained synth sub pumps under wide shimmering pads; the sparkling high end sits forward and nearly as loud as the voice. Clear, bright, slightly airy female lead with strong chest tone in a mid-high register: smooth sustained legato quarter-note pop phrasing with occasional offbeat accents and short clipped bursts for emphasis, doubled in unison and harmony-stacked, spacious reverb and delay throws. Loud, compressed, bright-topped wide-stereo master. No guitar, sax, piano or organic drums.",
         "clap": 0.7951709808125036
       }
-    ]
+    ],
+    "additional_models": {
+      "ElevenLabs Music": [
+        {
+          "audio": "audio/elevenlabs/taylor_swift_n0014_s4.mp3",
+          "prompt": "Energetic, bright, euphoric, sunny 2010s radio dance-pop / synth-pop with a club-ready 1980s streak: high energy and flat from bar one, no long build or drop-out. Drums crisp, bright and forward \u2014 four-on-the-floor kick on every quarter note, punchy handclap stacked on the snare in short gated reverb, closed eighth-note hi-hats with off-beat accents, continuous tambourine and shaker sparkle. Round clean side-chained synth bass pulses locked to the kick; wide side-chained pads audibly duck under each kick. A short bright plucked staccato synth hook repeats throughout over shimmering high arpeggios and lush chorus-y analog pads \u2014 synths only, no guitar, piano, bells or strings. Light, youthful female lead vocal, bright and airy, mid-register and conversational, clipping short phrases with talky consonants, single-tracked and nearly dry with short reverb and delay throws at phrase endings, singing a syllabic, rhythmically busy stepwise eighth-note hook; one octave-doubled harmonized backing vocal thickens the hook, plus a few playful ad-libs. Glossy, heavily compressed master, clean high-end sheen; uplifting, feel-good; no country, folk, rock or booming 808 sub.",
+          "clap": 0.7669615149497986
+        },
+        {
+          "audio": "audio/elevenlabs/taylor_swift_n0028_s2.mp3",
+          "prompt": "Bright, glossy, euphoric 2010s radio dance-pop with a club-ready 80s synth-pop streak: major key, driving mid-tempo, high flat energy, vocal enters almost immediately, no build, no drop-out, no risers. Drums crisp and clearly audible without burying the voice: tight four-on-the-floor kick every quarter note, one clap-snare on beats 2 and 4 in short gated reverb, closed eighth-note hi-hats with off-beat open accents, continuous tambourine and shaker sparkle. Synths only, no guitar or piano: round warm synth bass with low-end sub weight, side-chained against the kick; upfront short bright plucked staccato mid hook looping every bar; glassy bell-mallet high arpeggio; prominent wide lush pads as the main harmonic texture, one chord per bar, ducking under each kick; no sustained lead synth line. One clean, light, airy female lead, conversational mid register on repeated notes, sing-song talky chant, syllable-dense stepwise eighths clipped on the backbeat, nearly dry with short reverb, faint airy harmony on a few words; strictly words, no oh-ohs. Warm-leaning but loud, compressed glossy master, bright top end, wide stereo; no country, folk or rock.",
+          "clap": 0.760973334312439
+        }
+      ],
+      "MiniMax Music 3": [
+        {
+          "audio": "audio/minimax/taylor_swift_n0026_s4.mp3",
+          "prompt": "Bright, sunny, euphoric modern dance-pop / synth-pop at 118 BPM, major key: glossy, loud, punchy, tightly compressed radio-ready master, wide bright stereo, crisp airy top, tight weighty low end, one continuous high-energy groove, no breakdown, drop or slow build. Fully electronic, no piano, guitar or live drums: a bright plucky sawtooth arpeggio in rapid 16ths and a distinct foreground synth lead state the hook over warm sustained pads kept moderate so the voice sits clear, with a very loud deep subby synth bass pumping audibly under every kick. Clean minimal drums: four-on-the-floor kick, dry tight snare/clap backbeat with short tail, crisp hi-hats with 16th movement; no tambourine or shaker. Lead female vocal is the loudest, centered, upfront element: youthful, light, bright, slightly nasal forward tone, light vibrato, confident mid-to-high chest mix, double-tracked in close unison, flowing melodic phrasing with real pitch movement, clear breaths, sustained held notes ending in a short bright reverb with light delay; never breathy or dreamy. Wordless \"oh-oh\"/\"ah\" backing chops and wide stacked harmonies lift the hook. Celebratory, dance-floor ready.",
+          "clap": 0.8354434370994568
+        },
+        {
+          "audio": "audio/minimax/taylor_swift_n0004_s4.mp3",
+          "prompt": "Bright, sunny, euphoric modern dance-pop with a loud, punchy, radio-ready mix. The lead female pop vocal is bright-toned and slightly nasal, confidently belted and placed up-front and dry-ish in the center: sung close to the mic with only a short bright plate reverb and light double-tracking, full-throated and energetic, never breathy, never whispered, never set back in the mix. Rhythmic, syllable-dense staccato hook on repeated notes, with stacked harmonies answering in the chorus. Glossy driving arrangement: steady four-on-the-floor kick, tight punchy modern snare with layered claps and stomps, crisp hi-hats, syncopated sidechained synth sub-bass stabs locked to the kick, bright plucky synth lead and shimmering arpeggios carrying the melodic hook, subtle piano chord stabs and clean muted funk guitar plucks for rhythm texture. High energy and constant from the first bar, no slow build, no drop, no breakdown, no dreamy ambient pads or reverb wash; tight punchy low end and bright airy top end.",
+          "clap": 0.8163356781005859
+        }
+      ],
+      "Suno": [
+        {
+          "audio": "audio/suno/taylor_swift_n0013_s2.mp3",
+          "prompt": "Generate polished 2010s synth-pop with a euphoric 80s-tinted sheen over a relaxed, spacious mid-tempo pulse: bright youthful female lead vocal, upfront and close, singing almost continuously in her upper register with a light country-tinged twang, mostly a single lead line lightly doubled on the hook \u2014 the voice carries the melody. Warm sustained analog-style synth pads fill the mid-range, glossy chord stabs, and a quiet sparkling high-register plucked arpeggio as background shimmer rather than a competing lead. Crisp tight electronic drums: punchy kick locked to a pumping side-chained synth bass with a deep sub-heavy low end, snappy claps on two and four, bright hi-hats, shaker sparkle, tom fills. Dense but open, loud, punchy, bright top, warm mid-forward radio-ready mix. Purely synthetic, no electric guitar, piano or sax. Joyful, celebratory, anthemic.",
+          "clap": 0.7590498924255371
+        },
+        {
+          "audio": "audio/suno/taylor_swift_n0018_s4.mp3",
+          "prompt": "polished 2010s synth-pop, 80s-tinted and euphoric, relaxed mid-tempo dance pulse: after a short intro, bright youthful female lead, upfront and close, clear, slightly breathy, light country-tinged twang, singing nearly continuously in her upper register with smooth legato glides, syllable-dense phrasing over a catchy narrow repeated hook, lightly doubled with layered backing harmonies and a few group 'oh-oh' chants. Warm sustained analog pads, glossy chord stabs and a quiet sparkling high plucked arpeggio behind the voice. Crisp synthetic drums: four-on-the-floor kick to a pumping side-chained synth bass with deep sub-heavy low end, snappy claps on two and four, closed eighth hi-hats, tambourine, tom fills, a noise riser. Dense but open, loud, punchy, bright top over a warm mid-forward wide-stereo radio-ready mix. Fully electronic: no guitar or piano. Joyful, anthemic.",
+          "clap": 0.7423999309539795
+        }
+      ]
+    }
   },
   {
     "id": "adele",
@@ -66,10 +142,48 @@
       },
       {
         "audio": "audio/adele_2.mp3",
-        "prompt": "Slow, cinematic pop-soul ballad, about 66 BPM, minor key, steady 4/4. Warm resonant grand piano sits front and center, its left hand carrying the low end in long sustain-pedal chords alongside a deep double-bass; lush legato strings — low cello, violas, high violins — swell behind it as a wide sustained wash that thickens toward the peak. A plain, unhurried half-time kick and snare enters partway, soft and never fill-heavy; no shakers. Lead is a close-miked female mezzo-soprano, warm and slightly breathy in the verse with long sustained vowels, soulful vibrato and conversational phrasing that lingers at each line ending, opening into one full-voiced, aching, resonant belt at the climax. Layered close-harmony backing vocals appear only under the string swell. Deep hall reverb with a long tail, subtle vocal delay, wide stereo image, polished dynamic mastering. Avoid acoustic guitar, folk strumming, synth pads, electronic beats, and major-key brightness.",
+        "prompt": "Slow, cinematic pop-soul ballad, about 66 BPM, minor key, steady 4/4. Warm resonant grand piano sits front and center, its left hand carrying the low end in long sustain-pedal chords alongside a deep double-bass; lush legato strings \u2014 low cello, violas, high violins \u2014 swell behind it as a wide sustained wash that thickens toward the peak. A plain, unhurried half-time kick and snare enters partway, soft and never fill-heavy; no shakers. Lead is a close-miked female mezzo-soprano, warm and slightly breathy in the verse with long sustained vowels, soulful vibrato and conversational phrasing that lingers at each line ending, opening into one full-voiced, aching, resonant belt at the climax. Layered close-harmony backing vocals appear only under the string swell. Deep hall reverb with a long tail, subtle vocal delay, wide stereo image, polished dynamic mastering. Avoid acoustic guitar, folk strumming, synth pads, electronic beats, and major-key brightness.",
         "clap": 0.867378390925238
       }
-    ]
+    ],
+    "additional_models": {
+      "ElevenLabs Music": [
+        {
+          "audio": "audio/elevenlabs/adele_n0031_s1.mp3",
+          "prompt": "Slow, hushed, stripped adult-contemporary pop-soul ballad with an intimate acoustic singer-songwriter core: melancholic, wistful, yearning, tender, low volume, very close-miked and dry. A softly fingerpicked steel-string acoustic guitar and a warm acoustic grand piano sit at nearly equal level just below the voice: the guitar plays one continuous rolling broken-chord arpeggio that never drops out, no pick click; the piano is sparse, single-note left-hand bass octaves with occasional higher notes, the only low end, no separate bass. Lead vocal is a single dry un-doubled close-mic female mezzo-soprano front-center as the most prominent element, entering almost immediately: warm, slightly husky and breathy with audible breaths, mid-range with occasional slight lifts, mostly long sustained legato lines with a few small gaps, conversational phrasing, subtle bluesy bends and short vibrato at phrase ends, soulful but never belting, no melisma, no harmony doubles, no backing ooohs. No drums, no percussion, no strings, no synth pad, no choir, no anthemic climax. Clean, close, narrow centered, short tight room reverb, soft even dynamics.",
+          "clap": 0.8403559923171997
+        },
+        {
+          "audio": "audio/elevenlabs/adele_n0023_s1.mp3",
+          "prompt": "Slow, hushed, stripped pop-soul acoustic ballad: melancholic, wistful, late-night, low volume, close-miked, warm rounded slightly dark tone with gently rolled-off highs. A fingerpicked steel-string acoustic guitar is the most forward element, in a low/mid register below the voice, playing one continuous even rolling broken-chord arpeggio with almost no silence between notes \u2014 no strumming, no fills, no pick click \u2014 and it never drops out. A warm dark felt-toned grand piano sits slightly lower, sustaining one ringing soft chord per bar behind it with only occasional gentle melodic fills, its left hand the only low end; no bass. Lead vocal is a single dry close-mic female mezzo-soprano front-center entering immediately: smooth, warm, slightly breathy with audible breaths, delicate vibrato, low quiet chest register, long legato notes, plain conversational phrasing, soulful but never belting, no melisma runs, no harmony double, no backing ooohs. No drums, no percussion, no click, no strings, no choir, no anthemic climax. Clean, dry and close, narrow centered image, short tight room reverb; sparse and steady throughout.",
+          "clap": 0.8342506885528564
+        }
+      ],
+      "MiniMax Music 3": [
+        {
+          "audio": "audio/minimax/adele_n0025_s2.mp3",
+          "prompt": "2010s soul ballad with a neo-soul edge, slow 78 BPM 4/4 F minor, quiet, uncompressed: solo piano and one female lead voice. Piano: warm rounded soft-attack tone, wide in stereo, long ringing sustain; sparse two-or-three-note voicings - a low left-hand octave per chord change as the only bass plus one or two sustained right-hand notes; block chords left ringing on the sustain pedal in a slowly descending minor four-chord loop, one chord every three to four seconds, rubato, no steady pulse, single-note replies between phrases. The piano enters just before the voice and never drops out; sparse throughout, no build; she sustains over a final ringing chord, fades, piano closes alone. Voice: warm soulful female alto, slightly raspy-breathy in a conversational mid-range, never high or belted; close and upfront, louder than the piano, dry, no doubling, gentle vibrato, soulful slides and light melisma at phrase ends, mostly sustained notes with little pause, stepwise descending melody easing into a questioning unresolved turn. No drums, bass, strings, synth pads, choir or backing vocals. Melancholic late-night longing.",
+          "clap": 0.7655284404754639
+        },
+        {
+          "audio": "audio/minimax/adele_n0013_s4.mp3",
+          "prompt": "Sparse intimate contemporary soul-pop piano ballad, 78 BPM 4/4 F minor, quiet, uncompressed, thin low end. Solo acoustic grand piano only: soft dark felt tone in the mid-low register, soft rounded non-percussive attack, open block chords rung on sustain pedal in an unhurried four-chord loop, free rubato with no steady pulse or backbeat, low left-hand notes as the only bass floor, brief single-note and light arpeggiated fills between phrases, piano centred. One female lead only: warm, rich, chesty, dark alto in a low conversational mid-range, breathy dusky edge, rolled-off highs, never bright or airy; close and upfront, louder than the piano, minimal reverb, audible breaths, one unadorned take, subtle vibrato, no belts; melody mostly stepwise and descending, phrases ending in a rising, questioning unresolved turn. 1.5 seconds of piano alone, then the voice enters, piano continuing with no gaps, texture sparse; the voice sustains over a ringing chord, fades, piano closes alone. No drums, percussion, electric bass, strings, synth pads, choir or backing vocals. Melancholic, weary, late-night confessional longing.",
+          "clap": 0.764606237411499
+        }
+      ],
+      "Suno": [
+        {
+          "audio": "audio/suno/adele_n0005_s3.mp3",
+          "prompt": "Generate a slow 2010s pop soul ballad, around 64 BPM in F minor: a rich, powerful female voice, clear and warm and slightly breathy, singing softly and vulnerably close to the mic with expressive vibrato and natural unforced dynamics, over an intimate resonant grand piano whose mid-low register carries sustained block chords plus the low-end bass with heavy sustain-pedal bloom, faint ambient synth pads and soft swelling strings far behind, a restrained acoustic ballad rhythm, gentle backing vocals, and spacious dramatic ballad production. Clean high-fidelity mix, centered narrow stereo image, close dry mics with tasteful reverb depth, minimal compression, melancholic late-night longing mood.",
+          "clap": 0.8670211434364319
+        },
+        {
+          "audio": "audio/suno/adele_n0000_s1.mp3",
+          "prompt": "Generate 2010s pop soul with a rich powerful female voice, intimate piano, restrained acoustic rhythm, swelling strings and backing vocals, and spacious dramatic ballad production.",
+          "clap": 0.8542332649230957
+        }
+      ]
+    }
   },
   {
     "id": "green_day",
@@ -93,7 +207,45 @@
         "prompt": "Generate fast 1990s pop punk with crunchy power-chord guitars, nasal melodic male vocals, active bass lines, compact drum grooves, and bright dry production.",
         "clap": 0.7720256305818457
       }
-    ]
+    ],
+    "additional_models": {
+      "ElevenLabs Music": [
+        {
+          "audio": "audio/elevenlabs/green_day_n0024_s3.mp3",
+          "prompt": "Fast 1990s-style pop punk, 176 BPM, 4/4, wall-to-wall high energy start to finish, no quiet intro, no sparser drop, no half-time breakdown. Dominant tight crunchy power-chord rhythm guitar is the loudest, most forward element: relentless eighth-note downstroke palm-muted riffing alternating with bright open ringing chords, doubled and panned wide, thick and heavy with crunchy midrange bite and only a slight fizz, tight crunchy distortion not heavy fuzz, no lead-guitar showboating. Raw, slightly raspy nasal youthful male tenor, high and strained, a single dry voice close up front with almost no reverb and a snotty sneer: continuously sung on a singable stepwise melodic hook, pushing into shouted chant-like intensity, no doubling, no gang shouts. Thick overdriven picked electric bass with audible pick attack, a distinct melodic line locked tight to the drums. Loud heavily compressed drums: crisp tight dry snare crack on beats 2 and 4, punchy kick, straight rapid eighth-note hi-hats with occasional ride wash, bright cymbals, crash accents, occasional double-time snare fills. Bright treble-forward loud punchy dense aggressively compressed raw live-room band mix rather than gloss.",
+          "clap": 0.8547146916389465
+        },
+        {
+          "audio": "audio/elevenlabs/green_day_n0023_s1.mp3",
+          "prompt": "Fast 1990s-style pop punk, 4/4, wall-to-wall high energy with no sparser drop and no breakdown. Dominant tight crunchy power-chord rhythm guitar is the loudest, most forward element: relentless eighth-note downstroke palm-muted riffing with bright ringing open-chord accents inside the pattern, doubled and panned wide, thick and heavy with crunchy midrange bite and a slight fizz, no lead-guitar showboating. Raw, slightly raspy, nasal youthful male tenor, mid-to-high range, a single dry voice close up front with almost no reverb and a snotty sneer: rapid syllable-dense near-spoken-word punk delivery, very little space between phrases, still pitched and chant-like, pushing into shouted urgency, no doubling or gang shouts. Thick overdriven picked electric bass with audible pick attack locked tight to the drums. Loud compressed drums: forward crisp tight dry snare crack on beats 2 and 4, punchy kick, rapid eighth-note hi-hats with occasional ride-cymbal wash, bright cymbals, crash accents. Bright treble-forward, midrange-forward, loud punchy aggressively compressed raw garage-basement in-your-face band mix, not glossy.",
+          "clap": 0.7904525995254517
+        }
+      ],
+      "MiniMax Music 3": [
+        {
+          "audio": "audio/minimax/green_day_n0009_s4.mp3",
+          "prompt": "Fast, scrappy 1990s pop punk at a driving 4/4 clip. Loud, heavily distorted electric guitars dominate: bright, midrange-heavy crunch hammering tight eighth-note palm-muted power chords with ringing open chords and only short sharp fills, no lead lines. Picked overdriven bass on constant driving eighth notes locked to a kick on every beat. Raw small-studio drum kit: punchy but not deep kick, slightly tinny boxy ringing snare on the backbeat, relentless eighth-note hi-hats and bright cutting cymbals, dry with almost no room reverb. Single-tracked male vocal, nasal, sneering and bratty in a mid register, rapid syllabic shout-sung lines in a narrow range sitting just under the wall of guitars, no harmonies, no reverb. Full band from the very first bar, abrupt stop on a sustained final power chord. Unpolished, narrow, gritty mix with guitars and drums front and center: no synths, no glossy radio-pop sheen.",
+          "clap": 0.8086264133453369
+        },
+        {
+          "audio": "audio/minimax/green_day_n0014_s3.mp3",
+          "prompt": "Fast, scrappy mid-1990s pop punk / punk rock, driving straight 4/4 at a frantic clip, full band blasting from the first bar. Not metal: no thrash riffing, no double-kick or blast beats, no scooped modern distortion. Heavily distorted guitars are the loudest element, bright midrange-heavy crunch: sustained ringing open power chords over a simple three-chord progression, tight eighth-note palm-muted chugs between them, short sharp fills only, no guitar solo. Punchy picked overdriven bass on constant eighth notes locked to a kick on every beat. Raw small-studio drum kit, tight dry room, almost no reverb: shallow punchy kick on every beat, slightly tinny boxy cracking snare on 2 and 4, relentless eighth-note closed hi-hats, bright cutting crash accents. Single-tracked male vocal, nasal sneering bratty, rapid syllabic shout-sung phrases in a narrow range with short clipped lines, no soaring hook, no harmonies, no reverb, under the wall of guitars. Uniformly loud, no quiet verse, abrupt stop on one sustained final power chord and last cymbal crash. Unpolished, gritty, dry no-frills 1990s punk mix with guitars and drums up front; no synths, no glossy pop sheen, no reverb wash.",
+          "clap": 0.7710292935371399
+        }
+      ],
+      "Suno": [
+        {
+          "audio": "audio/suno/green_day_n0028_s3.mp3",
+          "prompt": "Fast, frantic 1990s pop punk: one unbroken high-energy section from the downbeat to an abrupt ringing stop, vocals continuous from bar one, no intro, no breakdown or solo. Two double-tracked distorted guitars, thick fuzzy saturated mid-heavy power chords downstroking a repeating three-chord riff, constant palm-muted eighth-note chugging, short high single-note hook between phrases. Full round picked bass with low-mid body on root eighths; kick thump; loud forward cracking snare above the guitars on a straight two-and-four backbeat; rapid hi-hats and bright splashy cutting cymbals. Loud, heavily compressed, bright trebly mid-forward, tight controlled lows, clean between hits, no glossy mastering. Lead: high cramped snotty nasal male tenor, clipped rapid-fire syllables on a catchy hummable melody, dry, single-tracked, above the guitars, no harmonies or gang shouts.",
+          "clap": 0.7732831239700317
+        },
+        {
+          "audio": "audio/suno/green_day_n0027_s4.mp3",
+          "prompt": "Fast, frantic raw 1990s pop punk / skate punk garage tape session: cold open on a crash into the full band riff, no count-in, relentless eighth-note downstroke wall, vocals from the downbeat, constant high intensity, abrupt ringing full-band stop. Two thin buzzy mid-heavy distorted guitars hammer one repeating three-chord power-chord riff with palm-muted chugging and a short higher melodic single-note hook between vocal phrases. Bright picky overdriven bass with round low-mid weight on root eighths; loud forward cracking snare on a straight two-and-four backbeat, kick with real thump, rapid sizzly hi-hats. Bright thin trebly mid-forward mix, compressed, mild tape grit, no glossy mastering; vocals clearly above the guitars. Lead: high whiny snotty youthful nasal male tenor singing a catchy tuneful clipped rapid-fire melody, single-tracked, dry and close, no harmonies or gang shouts.",
+          "clap": 0.7582859992980957
+        }
+      ]
+    }
   },
   {
     "id": "billie_eilish",
@@ -117,7 +269,45 @@
         "prompt": "Generate minimalist late-2010s alternative pop with whisper-close female vocals, deep sub bass, dry electronic percussion, unsettling sound design, abrupt dynamic contrasts, and intimate bedroom production.",
         "clap": 0.7297788477906174
       }
-    ]
+    ],
+    "additional_models": {
+      "ElevenLabs Music": [
+        {
+          "audio": "audio/elevenlabs/billie_eilish_n0002_s1.mp3",
+          "prompt": "Generate sparse, dark, lo-fi alternative trap-pop with a slow half-time groove: a deep sliding 808-style sub bass dominating the low end, tight dry punchy kick, crisp snapped snare and clap accents on the third beat, and rapid soft hi-hat rolls filling the gaps. Female mid-range vocal, breathy and whisper-close, delivered as half-spoken melodic rap, lightly auto-tuned and doubled into stacked layers with short reverb and slap delay. Above the beat, one simple repetitive thin detuned synth-pad loop drifting in reverb with faint ambient textures, soft tape hiss and gentle compression grit. Narrow, mostly centered mix at low-to-mid volume, claustrophobic intimate bedroom production, no bright modern sheen; brooding, eerie and hypnotic throughout.",
+          "clap": 0.6719939708709717
+        },
+        {
+          "audio": "audio/elevenlabs/billie_eilish_n0003_s1.mp3",
+          "prompt": "Generate sparse, dark, lo-fi cloud-rap / alternative trap-pop at a slow half-time 92 bpm in E minor. Deep resonant sliding 808 sub bass dominates the low end under a staccato plucked low synth figure; tight dry punchy kick on the downbeats, crisp snapped snare plus clap accent on the third beat, rapid soft hi-hat rolls and stuttered 16th fills in the gaps. One thin, slightly detuned DARK synth-pad loop (no bright airy pad) repeats hypnotically and drifts in long reverb with faint reversed ambient swells. Female lead in a low-alto register, whispered, half-spoken melodic rap very close to the mic and forward in the mix, lightly auto-tuned, doubled and stacked into subtle low harmonies, saturated with slap delay and long reverb tails. Deliberately lo-fi and gritty: soft tape hiss, vinyl crackle dust, gentle bus compression, narrow mostly-centered near-mono image, low-to-mid overall volume, claustrophobic bedroom production with no modern digital sheen or wide stereo sparkle. Bridge thins the texture to voice, pad and sub only, then the drums snap back; brooding, eerie, hypnotic, detached mood, steady minimal loop with no big drop.",
+          "clap": 0.6493542790412903
+        }
+      ],
+      "MiniMax Music 3": [
+        {
+          "audio": "audio/minimax/billie_eilish_n0018_s2.mp3",
+          "prompt": "Dark minimalist trap-pop / sparse hip-hop beat, minor key, slow creeping half-time 92 BPM: menacing, swaggering, deadpan. One hypnotic loop repeats unchanged, no drops or breakdowns, no risers. Deep static 808 sub bass on one sustained pitch front and center, punchy kick landing with it on downbeats, tight dry snare/clap cracking the backbeat with no reverb, continuous bright crisp quantized 16th hi-hats with occasional stuttered triplet rolls running under the voice; drums hard, dry, aggressive. Sparse stark texture: faint thin low synth and one repeating two-note mid-low filtered, slightly detuned toy-key motif audible behind the bass; no guitars, piano, strings or lush pads. Female lead dead-center and forward: mid-range chest voice, breathy yet clear, near-monotone, almost bored deadpan rap rhythm, clipped one-or-two-syllable phrases riding the hats, no sung chorus hook, faint low distorted double, light pitch-correction sheen, short delay and modest reverb, real gaps between phrases. Clean polished contemporary hi-fi mix, no tape hiss or lo-fi muffling: dark low-mid-heavy tone, thick centered low end, hats and hook wide, loud and heavily compressed, static menace throughout.",
+          "clap": 0.7641462087631226
+        },
+        {
+          "audio": "audio/minimax/billie_eilish_n0001_s2.mp3",
+          "prompt": "Generate dark trap-pop at a slow 92 BPM in a minor key: sparse, hypnotic groove built on a deep sustained 808 sub bass, punchy kick, tight dry snare/clap on the backbeat, and fast stuttered hi-hat rolls with triplet flams. Underneath, a brooding low synth pad and one haunting high bell-like synth melody acting as the main hook. Female vocal mid-range and forward in the mix: breathy but clear, rhythmic near-spoken cadence with clipped phrasing, light pitch-correction sheen, minimal reverb and short delay, small doubled ad-libs, lots of silence between lines. Dry, loud, heavily compressed modern mix, bass centered and powerful, crisp high end, static tension with no big drops or breakdowns, ominous and understated.",
+          "clap": 0.7513545751571655
+        }
+      ],
+      "Suno": [
+        {
+          "audio": "audio/suno/billie_eilish_n0022_s4.mp3",
+          "prompt": "Dark minimal alternative pop, all programmed \u2014 no guitar, piano or live drums. Straight mechanical 4/4 grid, one static looping bar, steady loudness, no build-ups, no drops into silence. Drums: dense continuous sizzling 16th-note hi-hat pulse, crisp dry clap on 2 and 4 clearly louder than the kick, soft low muffled kick on straight downbeats, no fills. Low end: deep round sub bass is the loudest, most dominant element, one held pitch as a static dark drone lightly sidechained to pump under each kick; harmony carried by a moderate synth pad chord bed, no melodic lead riff. Female lead front and center, single-tracked: airy breathy mid-to-high register, melodic with real pitch movement, short clipped two-to-four-syllable phrases, natural not autotuned, close-mic'd with a faint short reverb tail, no doubles, no harmonies, never belted. Warm slightly muted mix, gently rolled-off highs.",
+          "clap": 0.8141375780105591
+        },
+        {
+          "audio": "audio/suno/billie_eilish_n0020_s4.mp3",
+          "prompt": "Dark minimal alternative pop, all programmed \u2014 no guitar, piano or live drums. Straight mechanical 4/4 grid, one static looping bar, steady even loudness, no build-ups, no drops into silence. Drums: continuous ticking 16th-note hi-hat, crisp dry clap on 2 and 4 louder than the kick, soft low muffled kick on straight downbeats, no fills. Low end: one deep round 808 sub bass on a single sustained pitch, a static dark drone lightly sidechained to pump under each kick; harmony implied by bass alone, no melodic lead riff. Female lead front and center, single-tracked: airy breathy mid-to-high register, quietly melodic with real pitch movement, short clipped two-to-four-syllable phrases with clear pauses, natural not autotuned, dry close-mic'd with a faint short reverb tail, no doubles, no harmonies, never belted. Warm slightly muted mix, gently rolled-off highs.",
+          "clap": 0.8090821504592896
+        }
+      ]
+    }
   },
   {
     "id": "daft_punk",
@@ -141,7 +331,45 @@
         "prompt": "125 BPM four-on-the-floor filtered disco-funk house, bright major key, one looping four-bar progression (tonic, subdominant, dominant, relative minor seventh) with a moving bassline; continuous club loop, filter sweeps only, no build, drop or verse-chorus. Loudest midrange layer: a continuous wide-stereo wah/low-pass-filtered funk rhythm-guitar and clavinet riff of tight muted 16th upstrokes, unbroken across the whole 30 seconds. Bright plucky arpeggio and short filtered chord stabs sit layered underneath on off-beat accents, warm wide pads furthest back, no supersaw big-room lead. Punchy compressed kick with a short tight sub tail and obvious side-chain ducking; crisp centred clap on 2 and 4; dense closed 16th hats, open off-beat accents, subtle tambourine and shaker. Clean subby side-chained synth bass, mostly root notes with occasional octave lifts. Only vocal: front-centre male mid-range tenor, heavily vocoded/talkboxed short syllable chant, doubled, short slap delay, looped every bar; no sung lead. Warm mid-forward, bright, glossy, loudly limited club master, drums centred, synths wide.",
         "clap": 0.7348717500485041
       }
-    ]
+    ],
+    "additional_models": {
+      "ElevenLabs Music": [
+        {
+          "audio": "audio/elevenlabs/daft_punk_n0003_s1.mp3",
+          "prompt": "Uplifting French-touch disco house at 122 BPM in A minor: a chopped vintage 1970s disco-funk loop of band-limited sampled orchestral string slides, staccato brass and horn stabs, and syncopated wah-wah electric-guitar chord stabs rides a dense steady four-on-the-floor groove with a short punchy kick, snare-and-clap backbeat, eighth-note closed hi-hats, accented open hi-hats and light tambourine-shaker, while a live-sounding funk slap-picked electric bass guitar locks hard to the kick. A single bright, upfront male voice, lightly pitch-corrected and subtly vocoded, sings a catchy repetitive anthemic hook, doubled by stacked male \"aah\" backing harmonies. Side-chained synth pads and rhythmic chord pumps breathe against the kick, bright synth lead lines answer the vocal, and the energy stays a continuous euphoric loop with only gentle filter automation rather than big drops. Glossy, wide stereo, heavily limited club-ready loudness, shimmering bright hi-fi highs and a dry forward vocal; no rap, no spoken word, no female lead vocal.",
+          "clap": 0.7392063140869141
+        },
+        {
+          "audio": "audio/elevenlabs/daft_punk_n0011_s1.mp3",
+          "prompt": "Joyful, euphoric, celebratory French-touch filter-disco house, 122 BPM, A minor, bright treble-forward glossy club mix: a chopped full-range, open vintage 1970s disco-funk loop of short rhythmic string stabs, staccato brass and horn stabs and constant syncopated wah-wah funk guitar rides a dense dead-steady four-on-the-floor with short punchy kick, fat round sub, snare-and-clap on 2 and 4, eighth-note closed hi-hats and open hi-hat accents, while a busy live funk slap-picked electric bass plays syncopated sixteenths locked to the kick. The only vocal is one bright, high, soaring male voice with an androgynous sheen, lightly auto-tuned, dry and upfront: sparse, entering after a short instrumental intro, one short catchy celebratory hook in a few repeated bursts, doubled in unison by a bright synth lead with stacked male \"aah\" harmonies, leaving most of the clip instrumental. Heavily side-chained pads and chord stabs pump hard under every kick; groove and chord pattern repeat identically, no drops, no risers, no breakdown. Wide clean hi-fi stereo, heavily limited loudness, shimmering bright highs; no piano, no arpeggios, no handclaps, no female lead, no rap.",
+          "clap": 0.7351660132408142
+        }
+      ],
+      "MiniMax Music 3": [
+        {
+          "audio": "audio/minimax/daft_punk_n0025_s4.mp3",
+          "prompt": "Bright, euphoric, joyful early-2000s filtered disco-house: one dense, busy, steady repeating club loop, no build or drop, opening muffled and low-pass filtered then clearing within two seconds to full brightness. Dominant is a bright, thin, wide plucked staccato synth arpeggio running fast straight 16th notes through several pitches as the main hook, over a driving kick-and-bass groove, a faint pad backdrop, chopped filtered disco-funk sample chords and occasional short brass/string stabs. Drums: hard-compressed four-on-the-floor drum-machine kick, tight machine clap on beats 2 and 4, crisp straight 16th hi-hats, tambourine on offbeats, no swing. A punchy deep side-chained synth bass locks to the kick, obvious pumping. Vocal: one short clipped near-natural male tenor phrase, lightly autotuned with a subtle robotic edge, up front near the start under moderate reverb and delay, then mostly instrumental. Loud clean bright glossy maximal master, wide stereo, punchy mid-forward compression. No vocoder talk, wah funk guitar or trance risers.",
+          "clap": 0.746408998966217
+        },
+        {
+          "audio": "audio/minimax/daft_punk_n0012_s4.mp3",
+          "prompt": "Loud, euphoric, joyful early-2000s filtered disco-house club record: a sparkly clean digital staccato synth arpeggio repeats throughout as the main hook, doubled by a bright high-pitched lead synth motif, with short bright string/synth stabs, chopped filtered disco-funk sample chords, sustained legato synth pads as a harmonic cushion, and funky wah chicken-scratch electric guitar chops panned wide and set back. A very prominent hard-compressed four-on-the-floor drum-machine kick dominates, crisp straight 8th-note hi-hats, a tight machine clap snapping on beats 2 and 4, no extra percussion, no swing. A punchy deep round side-chained synth bass locks to the kick with obvious pumping that ducks the stabs and pads. The vocal is a heavily auto-tuned, robotic, thin, bright solo male chant of one short clipped phrase repeated back to back with gaps, drenched in long reverb and delay yet loud and forward, sitting just behind the arpeggio. Dense but distinct layers; clean digital glossy maximal production, sparkling airy top end, wide stereo, punchy mid-forward compression, aggressively loud club-ready limiting.",
+          "clap": 0.7281129360198975
+        }
+      ],
+      "Suno": [
+        {
+          "audio": "audio/suno/daft_punk_n0001_s4.mp3",
+          "prompt": "Uplifting, euphoric early-2000s dance-pop / Eurodance anthem in A minor at a steady club tempo. Male lead vocal: bright, youthful, energetic, auto-tune-tightened and centered, doubled with stacked harmonized backing vocals on a simple sung sing-along chorus hook; light reverb and delay, vocal loud and upfront rather than robotic \u2014 no vocoder lead. Backing track: punchy compressed four-on-the-floor kick, crisp layered snare and clap, tight offbeat hi-hats, thick funky synth bass pumping rhythmic octave patterns, and a shimmering slightly detuned arpeggiated synth lead carrying the main melodic hook. Filtered disco-funk guitar chops, bright string and synth stabs, wide stereo pads, sidechained pumping dynamics, glossy loud maximal French-touch-style production, high-fidelity and shimmering, instrumental intro building into a full-force chorus climax.",
+          "clap": 0.7765222191810608
+        },
+        {
+          "audio": "audio/suno/daft_punk_n0024_s1.mp3",
+          "prompt": "Euphoric early-2000s filter-disco house / dance-pop anthem, A minor, 122 BPM, glossy bright loud maximal hi-fi wall of sound. Dense from 0:00, no gaps, no breakdown or riser: drums, sub bass, tine piano and a bright high synth lead play continuously. Melody: catchy slightly detuned saw riff doubled an octave up with delay in the upper mids. Chord bed: bright percussive tine electric piano comping syncopated disco-funk chords, sampled-1970s-loop feel, forward. Drums: tight punchy sub-heavy kick every beat, snare/clap on 2 and 4, closed offbeat hi-hats plus tambourine, moderate reverb, loud compressed bus. Bass: deep filtered sub-bass stabbing short syncopated octave-jumping notes, sidechained pumping. Faint wah guitar. Male mid-range tenor, doubled, tight auto-tune, short rising hook, stacked ah choir; no vocoder.",
+          "clap": 0.7705384492874146
+        }
+      ]
+    }
   },
   {
     "id": "eminem",
@@ -157,7 +385,7 @@
     "samples": [
       {
         "audio": "audio/eminem_1.mp3",
-        "prompt": "Early-2000s hardcore hip hop with a boom-bap feel: mid-tempo head-nodding rap beat around 100 BPM in a dark minor key, hard straight 4/4 grid. Programmed drums up front — clipped punchy kick, crisp cracking snare hard on the backbeat, tight dry hi-hats with a few quick rolls. Sparse bass locked to the kick, short hard-hitting low notes. One short tense minor-key keyboard/synth loop repeats unchanged, thin and edgy, no lush chords, no warm pads. Male rap voice dead center and on top from the first bar: rapidly articulated clipped-consonant flow filling nearly every beat, snarling and confrontational, dry punch-in doubles and short shouted ad-libs, spoken rap only, no sung or crooned hook. Clean, loud, hard-compressed narrow production, drums and voice dominant, minimal reverb, hostile from start to finish.",
+        "prompt": "Early-2000s hardcore hip hop with a boom-bap feel: mid-tempo head-nodding rap beat around 100 BPM in a dark minor key, hard straight 4/4 grid. Programmed drums up front \u2014 clipped punchy kick, crisp cracking snare hard on the backbeat, tight dry hi-hats with a few quick rolls. Sparse bass locked to the kick, short hard-hitting low notes. One short tense minor-key keyboard/synth loop repeats unchanged, thin and edgy, no lush chords, no warm pads. Male rap voice dead center and on top from the first bar: rapidly articulated clipped-consonant flow filling nearly every beat, snarling and confrontational, dry punch-in doubles and short shouted ad-libs, spoken rap only, no sung or crooned hook. Clean, loud, hard-compressed narrow production, drums and voice dominant, minimal reverb, hostile from start to finish.",
         "clap": 0.8233720119214195
       },
       {
@@ -165,7 +393,45 @@
         "prompt": "Generate early-2000s hip hop with sharply articulated rapid male rap, dark keyboard loops, hard programmed drums, sparse bass, theatrical vocal layering, and clean confrontational production.",
         "clap": 0.8094792317269928
       }
-    ]
+    ],
+    "additional_models": {
+      "ElevenLabs Music": [
+        {
+          "audio": "audio/elevenlabs/eminem_n0002_s3.mp3",
+          "prompt": "Generate gritty early-2000s hardcore hip hop: dark distorted sampled keyboard loop over one static minor chord, hard programmed drum-machine breakbeat with punchy heavily compressed kick, sharp snappy snare and sparse tight hi-hats, deep saturated sub-bass. Gruff male baritone rap, rapid-fire clipped confrontational flow, dry and distorted, loud and forward with shouted ad-lib bursts. Narrow near-mono claustrophobic lo-fi master, tape saturation on drums and voice, heavy low-mid weight, rolled-off bright highs, no sung chorus or melodic harmonies.",
+          "clap": 0.6903681755065918
+        },
+        {
+          "audio": "audio/elevenlabs/eminem_n0029_s1.mp3",
+          "prompt": "Gritty early-2000s hardcore hip hop, 94 BPM, E minor, one static minor chord, no changes. Sparse, plodding, menacing groove: programmed two-bar breakbeat loop repeating identically with a slight human timing sway, heavily compressed kick on 1 and 3 plus a syncopated off-beat kick, sharp cracking snare on 2 and 4 thickened by a handclap, tight closed hi-hats as a plain even 16th tick, no rolls. Short pitched saturated sub-bass notes follow a simple dark low figure locked to the kick, never a static drone. Once per bar a clean bright metallic piano-keyboard chord stab with quick decay hits at drum level, same chord each time, rhythmic punctuation, not a melodic hook; hollow mid-range between stabs, no pads, strings or lead. Single dry close-mic male rap, mid-range slightly nasal, rapid-fire clipped confrontational spoken flow, dead center, louder than the drums, bright airy sibilance, heavy compression, minimal reverb, no doubling, terse shouted ad-libs at the sides. Narrow near-mono mix, dull dark drum bed against a sharp voice, heavy low-mid weight, loud, clean noise floor. No sung chorus, no harmonies, no scratches, static repeated loop, raw underground texture.",
+          "clap": 0.6801984310150146
+        }
+      ],
+      "MiniMax Music 3": [
+        {
+          "audio": "audio/minimax/eminem_n0002_s2.mp3",
+          "prompt": "Hardcore lo-fi hip hop, one continuous unbroken verse with no chorus. Single breathless male rap vocal: deep gruff raw timbre, dry close-mic and forward in the mix, consonants sharply articulated, delivered fast and confrontational with almost no pauses, no sung hook, no layered or shouted ad-libs. Beat stripped to percussion only: heavily compressed centered kick, sharp cracking snare/clap on beats 2 and 4, rapid tight hi-hat rolls, deep resonant 808 sub-bass holding the low end. The only harmonic element is a thin dark minor-key synth drone/pad \u2014 no piano, no guitar, no melodic loop. Deliberately raw underground mix: tape saturation, heavy compression, hard transients, narrow stereo field, drums and vocal loud and relentless from start to finish, steady mid-tempo 94 BPM, gritty aggressive street-level mood.",
+          "clap": 0.7662231922149658
+        },
+        {
+          "audio": "audio/minimax/eminem_n0001_s4.mp3",
+          "prompt": "Hardcore hip hop. Entirely rapped, one unbroken verse: fast dense male flow, gruff confrontational tone, dry close-mic vocal sitting right in front of the beat. Backing stripped to a punchy heavily compressed kick, a sharp cracking snare, tight closed hi-hats, deep 808 sub-bass, and a thin dark minor-key synth drone holding the low-mid tension. Raw tape-saturated mix, narrow stereo field, hard transients, mid-tempo 94 BPM, street-level aggression from start to finish.",
+          "clap": 0.7596510648727417
+        }
+      ],
+      "Suno": [
+        {
+          "audio": "audio/suno/eminem_n0013_s2.mp3",
+          "prompt": "Early-2000s hardcore hip hop, mid-tempo head-nodding boom-bap in a dark minor key: raw, punchy, heavily compressed. Sharply articulated rapid male rap, one dry lead voice, gritty slightly hoarse mid-range, sneering shouty confrontational edge, dense syllables crammed per beat with internal rhymes, upfront with a touch of reverb. One continuous loop: a short two-note menacing synth figure in the mid register repeats every bar over a distorted sub-bass locked to the kick. Hard programmed, quantized drums with open space around the voice: punchy compressed kick on the one, dry tight snappy snare on 2 and 4, crisp bright hi-hats on plain straight eighths with a faint tambourine tick; drums and synth loop both forward. Narrow in-your-face stereo, tape saturation, gritty lo-fi texture. Verse rap from the first second, menacing and defiant, no sung chorus, no glossy pop sheen.",
+          "clap": 0.7248358726501465
+        },
+        {
+          "audio": "audio/suno/eminem_n0015_s1.mp3",
+          "prompt": "Early-2000s hardcore hip hop, raw lo-fi boom-bap at a head-nodding mid-tempo, dark minor key, gritty and menacing. One continuous loop from the first second: a short, slightly distorted funk-soul keyboard stab and a repeating two-note mid-register synth figure over a deep distorted rumbling 808 sub-bass. Hard programmed, quantized drum-machine drums: punchy heavily compressed kick on the one, dry tight snappy snare on 2 and 4, bright crisp hi-hats in straight eighths, drums and synth both forward with open space around the voice. Single dry male rap lead only, gritty raspy mid-range, sneering shouty confrontational flow, dense syllables crammed per beat, upfront with only a touch of reverb. Narrow claustrophobic in-your-face stereo, tape saturation, heavy limiting, loud abrasive mix; no clean pop sheen, no wide synth pads, no modern trap, no sung chorus, no autotune.",
+          "clap": 0.7232252955436707
+        }
+      ]
+    }
   },
   {
     "id": "frank_sinatra",
@@ -181,14 +447,52 @@
     "samples": [
       {
         "audio": "audio/frank_sinatra_1.mp3",
-        "prompt": "Very slow late-night jazz ballad, about 60 BPM in 4/4, half-time two-feel with loose rubato, the vocal landing slightly behind the beat. Opens with eight to ten seconds of solo piano: warm, round, slightly dark tone, sparse sustained seventh and ninth voicings with real silence between chords. One close-miked male baritone then croons low and soft — warm husky low-mid timbre, narrow stepwise range, gentle scoops into notes, soft consonants, breathy vowels, faint vibrato on falling phrase tails, then a single fuller, louder top note near the end. Long five-second phrases separated by two-to-three-second gaps where only piano and plucked walking upright bass play; bass low and centered on steady quarter notes, brushes reduced to a faint snare swirl, no stick hits, no fills, no solos. No guitar, saxophone, horns, strings, pads, organ, synth or electric bass. Dark blue-toned harmony, chromatic passing chords, unresolved cadence. Lo-fi mono-era capture: loud tape hiss, rolled-off dull highs, small room, narrow near-mono image, no wide stereo, no bright modern polish or loud compression.",
+        "prompt": "Very slow late-night jazz ballad, about 60 BPM in 4/4, half-time two-feel with loose rubato, the vocal landing slightly behind the beat. Opens with eight to ten seconds of solo piano: warm, round, slightly dark tone, sparse sustained seventh and ninth voicings with real silence between chords. One close-miked male baritone then croons low and soft \u2014 warm husky low-mid timbre, narrow stepwise range, gentle scoops into notes, soft consonants, breathy vowels, faint vibrato on falling phrase tails, then a single fuller, louder top note near the end. Long five-second phrases separated by two-to-three-second gaps where only piano and plucked walking upright bass play; bass low and centered on steady quarter notes, brushes reduced to a faint snare swirl, no stick hits, no fills, no solos. No guitar, saxophone, horns, strings, pads, organ, synth or electric bass. Dark blue-toned harmony, chromatic passing chords, unresolved cadence. Lo-fi mono-era capture: loud tape hiss, rolled-off dull highs, small room, narrow near-mono image, no wide stereo, no bright modern polish or loud compression.",
         "clap": 0.7831669948023288
       },
       {
         "audio": "audio/frank_sinatra_2.mp3",
-        "prompt": "Very slow, hushed late-night 1950s jazz ballad, locked near 60 BPM in 4/4 — never a medium or fast tempo. Loose two-feel with rubato, vocal slightly behind the beat; long five-second legato phrases split by two-to-three second gaps where only piano and bass play. Ten seconds of solo piano opens: warm, round, dark tone, low left hand, sparse sustained seventh and ninth voicings with real silence between chords. One close-miked male baritone then croons low and soft — warm husky low-mid, narrow stepwise lines, gentle scoops, breathy vowels, faint vibrato on falling tails, a single fuller top note near the end — dry, forward, never belted, not doubled. Prominent round plucked acoustic upright bass walking slow quarter notes, not electric bass. Brushes just a faint snare swirl; no drum kit, no backbeat, no cymbal wash. No guitar, saxophone, horns, strings, organ or synth. Melancholic minor harmony, chromatic passing chords, unresolved cadence. Narrow near-mono vintage tape capture, audible hiss, rolled-off highs, no wide clean modern polish.",
+        "prompt": "Very slow, hushed late-night 1950s jazz ballad, locked near 60 BPM in 4/4 \u2014 never a medium or fast tempo. Loose two-feel with rubato, vocal slightly behind the beat; long five-second legato phrases split by two-to-three second gaps where only piano and bass play. Ten seconds of solo piano opens: warm, round, dark tone, low left hand, sparse sustained seventh and ninth voicings with real silence between chords. One close-miked male baritone then croons low and soft \u2014 warm husky low-mid, narrow stepwise lines, gentle scoops, breathy vowels, faint vibrato on falling tails, a single fuller top note near the end \u2014 dry, forward, never belted, not doubled. Prominent round plucked acoustic upright bass walking slow quarter notes, not electric bass. Brushes just a faint snare swirl; no drum kit, no backbeat, no cymbal wash. No guitar, saxophone, horns, strings, organ or synth. Melancholic minor harmony, chromatic passing chords, unresolved cadence. Narrow near-mono vintage tape capture, audible hiss, rolled-off highs, no wide clean modern polish.",
         "clap": 0.7812493997972951
       }
-    ]
+    ],
+    "additional_models": {
+      "ElevenLabs Music": [
+        {
+          "audio": "audio/elevenlabs/frank_sinatra_n0031_s4.mp3",
+          "prompt": "Generate an intimate late-1950s vocal jazz torch ballad: a close-miked warm male baritone croons softly, conversational and yearning, dry and forward, centered and clearly the loudest element, holding long sustained legato lines on open vowels with gentle vibrato and small audible breaths, dipping into a softer lower register at phrase ends, quiet intimate dynamics, never belting. Slow light triplet swing-shuffle ballad that sways over a sparse, continuous small-combo backing: soft warm piano comping syncopated off-beat chords with gentle fills between vocal lines sitting just under the voice, warm prominent upright bass walking easy quarter notes, softly brushed ride and brushes faint but steady throughout. Nocturnal narrow near-mono centered image, minimal vocal reverb, warm slightly dark analog tone with a gently rolled-off top end and faint vintage surface texture, low noise floor, not modern hi-fi bright. No strings, no orchestra, no horns, no guitar, no vibraphone, no backing vocals, no big-band swells. Wistful romantic sleepy late-night melancholy.",
+          "clap": 0.7932945489883423
+        },
+        {
+          "audio": "audio/elevenlabs/frank_sinatra_n0024_s1.mp3",
+          "prompt": "Generate intimate late-1950s vocal jazz torch ballad with a close-miked warm male baritone croon, forward and centered in a dry mix and clearly the loudest element: sustained legato crooning on long held vowels with clear gentle vibrato, small audible breaths, quietly soft dynamics throughout, never belting. Slow rubato 4/4 phrasing that sways rather than swings over a sparse, continuous small-combo backing: soft warm piano playing low block chords with gentle fills between vocal lines, sitting just under the voice, warm prominent upright bass walking easy quarter notes, softly brushed drums. Nocturnal near-mono centered image, minimal reverb, no strings, no horns, no big-band swells. Wistful romantic sleepy late-night melancholy.",
+          "clap": 0.767941415309906
+        }
+      ],
+      "MiniMax Music 3": [
+        {
+          "audio": "audio/minimax/frank_sinatra_n0009_s1.mp3",
+          "prompt": "1950s intimate late-night jazz ballad, sparse acoustic trio only \u2014 no strings, no brass, no saxes, no guitar, no pads, no backing vocals, no doubling. Opens with 2\u20133 seconds of solo grand piano playing warm sustained extended voicings and gentle flowing arpeggios, mid-register with soft low octave roots, mixed low and slightly left, then continuing quietly under the voice with delicate single-note fills between phrases. A close-miked warm, rounded, slightly husky male baritone croons up front: dry with almost no reverb, clearly louder than the piano and dead-center, breathy chest tone, gentle narrow vibrato, legato slides and soft consonants, behind-the-beat conversational phrasing, long notes lingered at phrase ends. Prominent deep melodic walking upright bass in steady quarter notes, centered; soft brushed snare in a slow two-feel swung pulse with a barely-there ride, drums never filling or dropping out. Melancholic minor-leaning chromatic harmony with minor-seventh, major-seventh and half-diminished colors. Clean warm vintage hi-fi, narrow near-mono image, faint tape hiss, hushed even dynamics, no build, soft fading piano outro; lonely nocturnal mood.",
+          "clap": 0.806496262550354
+        },
+        {
+          "audio": "audio/minimax/frank_sinatra_n0014_s1.mp3",
+          "prompt": "Slow intimate late-1950s vocal jazz standard, sparse acoustic trio only \u2014 warm grand piano, walking upright bass, brushed drums; no big band, no horns, no saxes, no strings, no guitar, no pads, no backing vocals, not modern pop-jazz. Opens on 2\u20133 seconds of solo piano: strong warm left-hand low octaves and lush extended voicings (major sevenths, minor ninths), gentle arpeggios and sparse fills between phrases, mixed low and slightly left, continuing under the voice. A deep rounded upright bass walks a clear melodic quarter-note line continuously, centered, prominent. Brush-only percussion: soft snare swish, faint ride shimmer, gentle swung two-feel, no stick ping, no strong kick, low in the balance, never filling or dropping out. Close-miked warm resonant male baritone croons up front and centered, dry with minimal reverb, clearly louder than the piano \u2014 full chest tone with a breathy edge, mid-low range, legato scoops, gentle vibrato on phrase ends, soft consonants, behind-the-beat phrasing. Wistful melancholic minor-leaning harmony, hushed even dynamics with no swell, clean warm hi-fi, near-mono image, soft fading piano outro; lonely nocturnal mood.",
+          "clap": 0.8034561276435852
+        }
+      ],
+      "Suno": [
+        {
+          "audio": "audio/suno/frank_sinatra_n0017_s2.mp3",
+          "prompt": "Intimate late-1950s vocal jazz torch ballad, hushed and melancholic: close-mic warm rounded male baritone crooning low in the chest, single-tracked, soft legato connected vowels with long sustained tones at phrase ends, slightly husky and breathy, narrow even vibrato, never belted. Voice enters at once and sings continuously, loudest and most forward, no instrumental break; rubato phrasing drifts behind the beat with breath space between lines. Sparse piano-bass-drums backing: deep round upright bass walking quarter notes, piano sparse low-mid block chords just under the voice, brushed drums a soft swishing sway with no fills or ride shimmer, very faint muted strings far back. Languid slow-ballad pulse, gentle 12/8 sway, slow harmonic rhythm. Warm dark vintage production: narrow near-mono center, rolled-off dark top, faint tape hiss, small dry room reverb, restrained dynamics.",
+          "clap": 0.8660849928855896
+        },
+        {
+          "audio": "audio/suno/frank_sinatra_n0004_s4.mp3",
+          "prompt": "Generate intimate 1950s vocal jazz torch ballad with a melancholy late-night mood: close warm baritone-tenor crooning, single-tracked, subtle vibrato, slightly breathy diction, slow flexible behind-the-beat phrasing. Deep rounded upright bass, delicate soft piano voicings with rich chromatic extended jazz harmony, brushed drums swaying gently, muted orchestral color kept low and soft in the background. Vocal centered and forward, steady restrained dynamics, no big swells or busy fills, nocturnal mono-era production with faint tape hiss and small natural room reverb.",
+          "clap": 0.8562914133071899
+        }
+      ]
+    }
   }
 ]

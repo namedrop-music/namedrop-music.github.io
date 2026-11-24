@@ -121,20 +121,13 @@ function addReference(container, example, excerpt, index) {
   }, { once: true });
 }
 
-function addExample(example) {
-  const section = document.createElement("section");
-  section.className = "example";
-  section.id = example.id;
-  section.innerHTML = `
-    <h4></h4><p class="song-title"></p>
-    <div class="comparison">
-      <div class="reference"><h5>Reference recording</h5><div class="reference-links"></div></div>
-      <div class="generated"><h5>Generated with Lyria 3</h5></div>
-    </div>`;
-  section.querySelector("h4").textContent = example.artist;
-  section.querySelector(".song-title").textContent = example.title;
-  example.excerpts.forEach((excerpt, index) => addReference(section.querySelector(".reference-links"), example, excerpt, index));
-  example.samples.forEach((sample, index) => {
+function modelColumn(artist, model, samples) {
+  const column = document.createElement("div");
+  column.className = "generated";
+  const heading = document.createElement("h5");
+  heading.textContent = model;
+  column.append(heading);
+  samples.forEach((sample, index) => {
     const block = document.createElement("div");
     block.className = "sample";
     const label = document.createElement("p");
@@ -142,9 +135,9 @@ function addExample(example) {
     label.textContent = `Sample ${index + 1}`;
     const audio = document.createElement("audio");
     audio.controls = true;
-    audio.preload = "metadata";
+    audio.preload = "none";
     audio.src = sample.audio;
-    audio.setAttribute("aria-label", `${example.artist}, generated sample ${index + 1}`);
+    audio.setAttribute("aria-label", `${artist}, ${model}, sample ${index + 1}`);
     audio.addEventListener("play", () => stopOthers(audio));
     const details = document.createElement("details");
     const summary = document.createElement("summary");
@@ -157,8 +150,29 @@ function addExample(example) {
     score.textContent = `CLAP similarity: ${sample.clap.toFixed(3)}`;
     details.append(summary, prompt, score);
     block.append(label, audio, details);
-    section.querySelector(".generated").append(block);
+    column.append(block);
   });
+  return column;
+}
+
+function addExample(example) {
+  const section = document.createElement("section");
+  section.className = "example";
+  section.id = example.id;
+  section.innerHTML = `
+    <h4></h4><p class="song-title"></p>
+    <div class="comparison">
+      <div class="reference"><h5>Reference recording</h5><div class="reference-links"></div></div>
+      <div class="models"></div>
+    </div>`;
+  section.querySelector("h4").textContent = example.artist;
+  section.querySelector(".song-title").textContent = example.title;
+  example.excerpts.forEach((excerpt, index) => addReference(section.querySelector(".reference-links"), example, excerpt, index));
+  const grid = section.querySelector(".models");
+  const models = { "Lyria 3": example.samples, ...example.additional_models };
+  for (const [model, samples] of Object.entries(models)) {
+    grid.append(modelColumn(example.artist, model, samples));
+  }
   examples.append(section);
 }
 
